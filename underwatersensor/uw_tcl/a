@@ -1,0 +1,1224 @@
+the file name is a.data
+the sending interval is 10.0
+Node 99 is sending first!!
+starting Simulation...
+num_nodes is set 100
+in sefilenamet
+GOD: the old file name istest.data
+diaoboyuGOD: the new file name isa.data
+after twogod
+uw_sink:source(99) send packet 1 at 1.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (250.000000,250.000000,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  1.330025 
+broadcast:size is 60  at  1.923652 
+broadcast:size is 60  at  2.105213 
+broadcast:size is 60  at  2.157915 
+broadcast:size is 60  at  2.541731 
+broadcast:size is 60  at  3.171878 
+uw_sink:source(99) send packet 2 at 11.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (242.083700,250.284282,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  11.330025 
+broadcast:size is 60  at  11.549411 
+broadcast:size is 60  at  12.106489 
+broadcast:size is 60  at  12.161484 
+broadcast:size is 60  at  12.164586 
+broadcast:size is 60  at  12.548661 
+broadcast:size is 60  at  12.726831 
+broadcast:size is 60  at  13.173797 
+broadcast:size is 60  at  13.380927 
+broadcast:size is 60  at  13.533455 
+broadcast:size is 60  at  13.995545 
+uw_sink:source(99) send packet 3 at 21.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (233.656670,250.586906,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  21.330025 
+broadcast:size is 60  at  21.544999 
+broadcast:size is 60  at  22.110476 
+broadcast:size is 60  at  22.158210 
+broadcast:size is 60  at  22.171641 
+broadcast:size is 60  at  22.540251 
+broadcast:size is 60  at  22.710288 
+broadcast:size is 60  at  23.128772 
+broadcast:size is 60  at  23.161340 
+uw_sink:source(99) send packet 4 at 31.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (225.229641,250.889529,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  31.330025 
+broadcast:size is 60  at  31.547628 
+uw_sink:source(99) send packet 5 at 41.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (216.547246,251.201322,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  41.330025 
+broadcast:size is 60  at  41.684350 
+broadcast:size is 60  at  42.159934 
+broadcast:size is 60  at  42.301125 
+broadcast:size is 60  at  42.514547 
+broadcast:size is 60  at  43.108007 
+broadcast:size is 60  at  43.497420 
+uw_sink:source(99) send packet 6 at 51.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (208.120217,251.503945,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  51.330025 
+broadcast:size is 60  at  51.681155 
+broadcast:size is 60  at  52.145936 
+broadcast:size is 60  at  52.263369 
+broadcast:size is 60  at  52.297782 
+broadcast:size is 60  at  52.650337 
+broadcast:size is 60  at  53.042769 
+broadcast:size is 60  at  53.483552 
+broadcast:size is 60  at  53.778068 
+broadcast:size is 60  at  54.150594 
+uw_sink:source(99) send packet 7 at 61.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (199.693187,251.806569,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  61.330025 
+broadcast:size is 60  at  61.679336 
+broadcast:size is 60  at  62.135013 
+broadcast:size is 60  at  62.249779 
+broadcast:size is 60  at  62.297309 
+broadcast:size is 60  at  62.638618 
+broadcast:size is 60  at  62.736050 
+broadcast:size is 60  at  62.812327 
+broadcast:size is 60  at  62.867030 
+broadcast:size is 60  at  62.905868 
+broadcast:size is 60  at  63.041820 
+broadcast:size is 60  at  63.181438 
+broadcast:size is 60  at  63.240612 
+broadcast:size is 60  at  63.398438 
+broadcast:size is 60  at  63.411845 
+broadcast:size is 60  at  63.479258 
+broadcast:size is 60  at  63.558577 
+broadcast:size is 60  at  63.765883 
+broadcast:size is 60  at  63.887468 
+broadcast:size is 60  at  63.893028 
+UWSink (id:0): I get the packet data no.6 . Source is 99 Prehop is 15 
+broadcast:size is 60  at  64.144254 
+broadcast:size is 60  at  64.212875 
+broadcast:size is 60  at  64.381140 
+uw_sink:source(99) send packet 8 at 71.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (191.010793,252.118362,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  71.330025 
+broadcast:size is 60  at  71.679038 
+broadcast:size is 60  at  72.128511 
+broadcast:size is 60  at  72.242863 
+broadcast:size is 60  at  72.299744 
+broadcast:size is 60  at  72.637864 
+broadcast:size is 60  at  72.801740 
+broadcast:size is 60  at  72.886957 
+broadcast:size is 60  at  73.226850 
+broadcast:size is 60  at  73.305250 
+broadcast:size is 60  at  73.521269 
+broadcast:size is 60  at  73.542261 
+broadcast:size is 60  at  73.763368 
+broadcast:size is 60  at  73.893275 
+broadcast:size is 60  at  73.906630 
+UWSink (id:0): I get the packet data no.7 . Source is 99 Prehop is 15 
+SK 0: Num_Recv 2, InterArrival 10.016241
+broadcast:size is 60  at  73.969042 
+broadcast:size is 60  at  74.189365 
+broadcast:size is 60  at  74.448103 
+broadcast:size is 60  at  74.569619 
+broadcast:size is 60  at  74.577090 
+broadcast:size is 60  at  74.642362 
+broadcast:size is 60  at  75.031178 
+broadcast:size is 60  at  75.046357 
+broadcast:size is 60  at  75.119299 
+broadcast:size is 60  at  75.146694 
+broadcast:size is 60  at  75.176470 
+broadcast:size is 60  at  75.219924 
+broadcast:size is 60  at  75.233750 
+broadcast:size is 60  at  75.295971 
+broadcast:size is 60  at  75.315562 
+broadcast:size is 60  at  75.454065 
+broadcast:size is 60  at  75.683523 
+broadcast:size is 60  at  75.716516 
+broadcast:size is 60  at  76.052605 
+broadcast:size is 60  at  76.445396 
+broadcast:size is 60  at  77.005011 
+broadcast:size is 60  at  77.039661 
+broadcast:size is 60  at  77.180147 
+broadcast:size is 60  at  77.895511 
+uw_sink:source(99) send packet 9 at 81.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (182.583764,252.420985,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  81.330025 
+broadcast:size is 60  at  81.680285 
+broadcast:size is 60  at  82.048803 
+broadcast:size is 60  at  82.260661 
+broadcast:size is 60  at  82.304924 
+broadcast:size is 60  at  82.679919 
+broadcast:size is 60  at  82.735029 
+broadcast:size is 60  at  82.817169 
+broadcast:size is 60  at  82.915138 
+broadcast:size is 60  at  83.298713 
+broadcast:size is 60  at  83.476825 
+broadcast:size is 60  at  83.539927 
+broadcast:size is 60  at  83.890865 
+broadcast:size is 60  at  83.905414 
+broadcast:size is 60  at  84.622246 
+UWSink (id:0): I get the packet data no.8 . Source is 99 Prehop is 39 
+SK 0: Num_Recv 3, InterArrival 10.728138
+broadcast:size is 60  at  85.133747 
+uw_sink:source(99) send packet 10 at 91.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (174.156734,252.723609,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  91.330025 
+broadcast:size is 60  at  91.682976 
+broadcast:size is 60  at  92.045509 
+broadcast:size is 60  at  92.115001 
+broadcast:size is 60  at  92.312528 
+broadcast:size is 60  at  92.497455 
+broadcast:size is 60  at  92.691378 
+broadcast:size is 60  at  92.748807 
+broadcast:size is 60  at  92.805321 
+broadcast:size is 60  at  92.809636 
+broadcast:size is 60  at  92.922081 
+broadcast:size is 60  at  92.927020 
+broadcast:size is 60  at  92.963988 
+broadcast:size is 60  at  93.022414 
+broadcast:size is 60  at  93.118937 
+broadcast:size is 60  at  93.309206 
+broadcast:size is 60  at  93.339277 
+broadcast:size is 60  at  93.362153 
+broadcast:size is 60  at  93.477096 
+broadcast:size is 60  at  93.479174 
+broadcast:size is 60  at  93.558069 
+broadcast:size is 60  at  93.572838 
+UWSink (id:0): I get the packet data no.9 . Source is 99 Prehop is 66 
+SK 0: Num_Recv 4, InterArrival 8.931884
+broadcast:size is 60  at  93.649809 
+broadcast:size is 60  at  93.673618 
+broadcast:size is 60  at  93.721122 
+broadcast:size is 60  at  93.756975 
+broadcast:size is 60  at  93.920551 
+broadcast:size is 60  at  93.927324 
+broadcast:size is 60  at  93.928873 
+underwater: the packet is interfered at node 43
+broadcast:node 43  gets a corrupted packet at  93.989617
+underwater: the packet is interfered at node 43
+broadcast:node 43  gets a corrupted packet at  93.990517
+broadcast:size is 60  at  94.057113 
+broadcast:size is 60  at  94.260528 
+broadcast:size is 60  at  94.330393 
+broadcast:size is 60  at  94.330454 
+broadcast:size is 60  at  94.406897 
+broadcast:size is 60  at  94.435214 
+broadcast:size is 60  at  94.510808 
+broadcast:size is 60  at  95.122193 
+broadcast:size is 60  at  95.153059 
+broadcast:size is 60  at  95.722915 
+uw_sink:source(99) send packet 11 at 101.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (165.474340,253.035402,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  101.330025 
+broadcast:size is 60  at  101.674187 
+broadcast:size is 60  at  102.047790 
+broadcast:size is 60  at  102.289584 
+broadcast:size is 60  at  102.497507 
+broadcast:size is 60  at  102.699797 
+broadcast:size is 60  at  102.746465 
+broadcast:size is 60  at  102.808524 
+broadcast:size is 60  at  102.815938 
+broadcast:size is 60  at  102.931802 
+broadcast:size is 60  at  102.965986 
+broadcast:size is 60  at  103.304498 
+broadcast:size is 60  at  103.471820 
+broadcast:size is 60  at  103.492253 
+broadcast:size is 60  at  103.567656 
+UWSink (id:0): I get the packet data no.10 . Source is 99 Prehop is 66 
+SK 0: Num_Recv 5, InterArrival 9.995542
+broadcast:size is 60  at  103.789822 
+broadcast:size is 60  at  104.041297 
+broadcast:size is 60  at  104.204346 
+broadcast:size is 60  at  104.258932 
+broadcast:size is 60  at  104.423641 
+broadcast:size is 60  at  104.565040 
+broadcast:size is 60  at  104.629486 
+broadcast:size is 60  at  104.631121 
+broadcast:size is 60  at  104.724170 
+broadcast:size is 60  at  104.742596 
+broadcast:size is 60  at  105.107136 
+broadcast:size is 60  at  105.162794 
+broadcast:size is 60  at  105.216703 
+broadcast:size is 60  at  105.358768 
+broadcast:size is 60  at  105.708414 
+uw_sink:source(99) send packet 12 at 111.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (157.047311,253.338025,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  111.330025 
+broadcast:size is 60  at  111.670846 
+broadcast:size is 60  at  112.124860 
+broadcast:size is 60  at  112.281608 
+broadcast:size is 60  at  112.378063 
+broadcast:size is 60  at  112.724673 
+broadcast:size is 60  at  112.855790 
+broadcast:size is 60  at  112.868985 
+broadcast:size is 60  at  113.324133 
+broadcast:size is 60  at  113.325820 
+broadcast:size is 60  at  113.389871 
+broadcast:size is 60  at  113.440685 
+broadcast:size is 60  at  113.470392 
+broadcast:size is 60  at  113.483382 
+broadcast:size is 60  at  113.527411 
+broadcast:size is 60  at  113.620138 
+broadcast:size is 60  at  113.629162 
+broadcast:size is 60  at  113.634055 
+broadcast:size is 60  at  113.756782 
+broadcast:size is 60  at  113.758103 
+broadcast:size is 60  at  113.762231 
+broadcast:size is 60  at  113.782738 
+UWSink (id:0): I get the packet data no.11 . Source is 99 Prehop is 39 
+SK 0: Num_Recv 6, InterArrival 10.200732
+broadcast:size is 60  at  113.877557 
+broadcast:size is 60  at  113.899312 
+broadcast:size is 60  at  114.008151 
+broadcast:size is 60  at  114.254384 
+broadcast:size is 60  at  114.280613 
+broadcast:size is 60  at  114.318633 
+broadcast:size is 60  at  114.352768 
+broadcast:size is 60  at  114.395665 
+broadcast:size is 60  at  114.533806 
+broadcast:size is 60  at  114.690336 
+broadcast:size is 60  at  114.698368 
+broadcast:size is 60  at  114.741315 
+broadcast:size is 60  at  114.856234 
+broadcast:size is 60  at  114.993975 
+broadcast:size is 60  at  114.996504 
+broadcast:size is 60  at  115.001293 
+broadcast:size is 60  at  115.120984 
+broadcast:size is 60  at  115.145604 
+broadcast:size is 60  at  115.348223 
+broadcast:size is 60  at  115.409370 
+broadcast:size is 60  at  115.970591 
+uw_sink:source(99) send packet 13 at 121.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (148.620281,253.640648,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  121.330025 
+broadcast:size is 60  at  121.675931 
+broadcast:size is 60  at  121.815586 
+broadcast:size is 60  at  122.137352 
+broadcast:size is 60  at  122.177842 
+broadcast:size is 60  at  122.295892 
+broadcast:size is 60  at  122.392413 
+broadcast:size is 60  at  122.621378 
+broadcast:size is 60  at  122.744983 
+broadcast:size is 60  at  122.792714 
+broadcast:size is 60  at  122.814153 
+broadcast:size is 60  at  122.873139 
+broadcast:size is 60  at  123.057570 
+broadcast:size is 60  at  123.060292 
+broadcast:size is 60  at  123.296005 
+broadcast:size is 60  at  123.463031 
+broadcast:size is 60  at  123.489574 
+broadcast:size is 60  at  123.544176 
+UWSink (id:0): I get the packet data no.12 . Source is 99 Prehop is 66 
+SK 0: Num_Recv 7, InterArrival 9.786362
+broadcast:size is 60  at  123.631894 
+broadcast:size is 60  at  123.994999 
+broadcast:size is 60  at  124.027972 
+broadcast:size is 60  at  124.314908 
+broadcast:size is 60  at  124.574403 
+broadcast:size is 60  at  124.693295 
+broadcast:size is 60  at  125.044293 
+broadcast:size is 60  at  125.104602 
+broadcast:size is 60  at  125.465613 
+broadcast:size is 60  at  125.966134 
+broadcast:size is 60  at  126.080304 
+broadcast:size is 60  at  126.568800 
+uw_sink:source(99) send packet 14 at 131.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (139.937887,253.952442,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  131.330025 
+broadcast:size is 60  at  131.687347 
+broadcast:size is 60  at  131.812478 
+broadcast:size is 60  at  132.158548 
+broadcast:size is 60  at  132.176774 
+broadcast:size is 60  at  132.313902 
+broadcast:size is 60  at  132.319050 
+broadcast:size is 60  at  132.402980 
+broadcast:size is 60  at  132.638139 
+broadcast:size is 60  at  132.800147 
+broadcast:size is 60  at  132.827992 
+broadcast:size is 60  at  132.955103 
+broadcast:size is 60  at  132.958302 
+broadcast:size is 60  at  133.072445 
+broadcast:size is 60  at  133.111298 
+broadcast:size is 60  at  133.143626 
+broadcast:size is 60  at  133.205720 
+broadcast:size is 60  at  133.417111 
+broadcast:size is 60  at  133.475052 
+broadcast:size is 60  at  133.599552 
+broadcast:size is 60  at  133.629650 
+broadcast:size is 60  at  133.682935 
+broadcast:size is 60  at  133.705567 
+broadcast:size is 60  at  133.774720 
+UWSink (id:0): I get the packet data no.13 . Source is 99 Prehop is 39 
+SK 0: Num_Recv 8, InterArrival 10.228186
+broadcast:size is 60  at  133.852037 
+broadcast:size is 60  at  133.892447 
+broadcast:size is 60  at  133.927785 
+broadcast:size is 60  at  134.078604 
+broadcast:size is 60  at  134.276551 
+broadcast:size is 60  at  134.332423 
+broadcast:size is 60  at  134.344590 
+broadcast:size is 60  at  134.403852 
+broadcast:size is 60  at  134.410672 
+broadcast:size is 60  at  134.879849 
+broadcast:size is 60  at  134.999093 
+broadcast:size is 60  at  135.172017 
+broadcast:size is 60  at  135.894613 
+uw_sink:source(99) send packet 15 at 141.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (131.510858,254.255065,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  141.330025 
+broadcast:size is 60  at  141.810191 
+broadcast:size is 60  at  142.308968 
+uw_sink:source(99) send packet 16 at 151.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (123.083828,254.557688,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  151.330025 
+broadcast:size is 60  at  151.808827 
+broadcast:size is 60  at  152.308067 
+uw_sink:source(99) send packet 17 at 161.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (114.401434,254.869482,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  161.330025 
+broadcast:size is 60  at  161.808458 
+broadcast:size is 60  at  162.128472 
+broadcast:size is 60  at  162.311205 
+broadcast:size is 60  at  162.334295 
+broadcast:size is 60  at  162.551127 
+broadcast:size is 60  at  163.020314 
+broadcast:size is 60  at  163.181032 
+broadcast:size is 60  at  163.247556 
+broadcast:size is 60  at  163.663756 
+broadcast:size is 60  at  164.151746 
+broadcast:size is 60  at  164.479002 
+broadcast:size is 60  at  164.743494 
+broadcast:size is 60  at  165.111687 
+broadcast:size is 60  at  165.260428 
+broadcast:size is 60  at  165.465085 
+UWSink (id:0): I get the packet data no.16 . Source is 99 Prehop is 39 
+SK 0: Num_Recv 9, InterArrival 31.687120
+broadcast:size is 60  at  165.963381 
+broadcast:size is 60  at  166.569454 
+uw_sink:source(99) send packet 18 at 171.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (105.974405,255.172105,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  171.330025 
+broadcast:size is 60  at  171.809103 
+broadcast:size is 60  at  172.120981 
+broadcast:size is 60  at  172.326647 
+broadcast:size is 60  at  173.171688 
+broadcast:size is 60  at  173.318440 
+broadcast:size is 60  at  173.870409 
+broadcast:size is 60  at  173.934376 
+broadcast:size is 60  at  174.389514 
+broadcast:size is 60  at  174.528189 
+broadcast:size is 60  at  174.625368 
+broadcast:size is 60  at  174.792004 
+UWSink (id:0): I get the packet data no.17 . Source is 99 Prehop is 15 
+SK 0: Num_Recv 10, InterArrival 9.344743
+broadcast:size is 60  at  174.942140 
+broadcast:size is 60  at  175.156056 
+broadcast:size is 60  at  175.448364 
+broadcast:size is 60  at  175.511439 
+broadcast:size is 60  at  175.533972 
+broadcast:size is 60  at  175.634791 
+broadcast:size is 60  at  175.658329 
+broadcast:size is 60  at  175.750679 
+broadcast:size is 60  at  175.923928 
+broadcast:size is 60  at  176.107321 
+broadcast:size is 60  at  176.150157 
+broadcast:size is 60  at  176.260098 
+broadcast:size is 60  at  176.436340 
+broadcast:size is 60  at  176.441159 
+broadcast:size is 60  at  176.449998 
+underwater: the packet is interfered at node 22
+broadcast:node 22  gets a corrupted packet at  176.503921
+underwater: the packet is interfered at node 3
+broadcast:node 3  gets a corrupted packet at  176.505520
+underwater: the packet is interfered at node 0
+broadcast:node 0  gets a corrupted packet at  176.507422
+underwater: the packet is interfered at node 3
+broadcast:node 3  gets a corrupted packet at  176.507717
+underwater: the packet is interfered at node 18
+broadcast:node 18  gets a corrupted packet at  176.508486
+underwater: the packet is interfered at node 22
+broadcast:node 22  gets a corrupted packet at  176.509457
+underwater: the packet is interfered at node 0
+broadcast:node 0  gets a corrupted packet at  176.509981
+underwater: the packet is interfered at node 18
+broadcast:node 18  gets a corrupted packet at  176.512411
+broadcast:size is 60  at  177.036484 
+broadcast:size is 60  at  177.251501 
+broadcast:size is 60  at  177.757577 
+broadcast:size is 60  at  177.802584 
+broadcast:size is 60  at  177.995073 
+uw_sink:source(99) send packet 19 at 181.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (97.547375,255.474728,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  181.330025 
+broadcast:size is 60  at  181.810727 
+broadcast:size is 60  at  182.113756 
+broadcast:size is 60  at  182.321257 
+broadcast:size is 60  at  182.499775 
+broadcast:size is 60  at  182.813639 
+broadcast:size is 60  at  183.063026 
+broadcast:size is 60  at  183.468241 
+broadcast:size is 60  at  183.641052 
+broadcast:size is 60  at  184.048761 
+broadcast:size is 60  at  184.570611 
+broadcast:size is 60  at  184.629090 
+broadcast:size is 60  at  185.044109 
+broadcast:size is 60  at  185.180987 
+broadcast:size is 60  at  185.269837 
+broadcast:size is 60  at  185.615569 
+UWSink (id:0): I get the packet data no.18 . Source is 99 Prehop is 15 
+SK 0: Num_Recv 11, InterArrival 10.821223
+broadcast:size is 60  at  186.343714 
+uw_sink:source(99) send packet 20 at 191.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (88.864981,255.786522,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  191.330025 
+broadcast:size is 60  at  191.813250 
+broadcast:size is 60  at  192.318710 
+broadcast:size is 60  at  192.500767 
+broadcast:size is 60  at  192.808638 
+broadcast:size is 60  at  193.293396 
+broadcast:size is 60  at  193.633132 
+broadcast:size is 60  at  193.711327 
+broadcast:size is 60  at  193.772565 
+UWSink (id:0): I get the packet data no.19 . Source is 99 Prehop is 39 
+SK 0: Num_Recv 12, InterArrival 8.141170
+broadcast:size is 60  at  194.310595 
+broadcast:size is 60  at  194.439147 
+broadcast:size is 60  at  194.747429 
+broadcast:size is 60  at  194.876568 
+broadcast:size is 60  at  195.049806 
+broadcast:size is 60  at  195.132839 
+broadcast:size is 60  at  195.240643 
+broadcast:size is 60  at  195.275944 
+broadcast:size is 60  at  195.469808 
+broadcast:size is 60  at  195.497980 
+broadcast:size is 60  at  195.535455 
+broadcast:size is 60  at  195.614409 
+broadcast:size is 60  at  195.625562 
+broadcast:size is 60  at  195.977656 
+broadcast:size is 60  at  195.996234 
+broadcast:size is 60  at  196.076396 
+broadcast:size is 60  at  196.115410 
+broadcast:size is 60  at  196.412943 
+broadcast:size is 60  at  197.125474 
+uw_sink:source(99) send packet 21 at 201.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (80.437952,256.089145,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  201.330025 
+broadcast:size is 60  at  201.816562 
+broadcast:size is 60  at  202.319675 
+broadcast:size is 60  at  202.704325 
+broadcast:size is 60  at  203.062413 
+broadcast:size is 60  at  203.362855 
+broadcast:size is 60  at  203.467097 
+broadcast:size is 60  at  203.638427 
+broadcast:size is 60  at  203.671299 
+broadcast:size is 60  at  203.760439 
+broadcast:size is 60  at  204.155153 
+broadcast:size is 60  at  204.288133 
+broadcast:size is 60  at  204.417559 
+UWSink (id:0): I get the packet data no.20 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 13, InterArrival 10.651091
+broadcast:size is 60  at  204.503300 
+broadcast:size is 60  at  204.574463 
+broadcast:size is 60  at  204.640726 
+broadcast:size is 60  at  205.302845 
+broadcast:size is 60  at  205.737670 
+broadcast:size is 60  at  205.915317 
+broadcast:size is 60  at  205.994942 
+broadcast:size is 60  at  206.094236 
+broadcast:size is 60  at  206.143012 
+broadcast:size is 60  at  206.483726 
+broadcast:size is 60  at  206.837424 
+broadcast:size is 60  at  206.937421 
+broadcast:size is 60  at  207.266942 
+broadcast:size is 60  at  207.980373 
+uw_sink:source(99) send packet 22 at 211.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (72.010922,256.391768,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  211.330025 
+broadcast:size is 60  at  211.820544 
+broadcast:size is 60  at  212.324524 
+broadcast:size is 60  at  212.706671 
+broadcast:size is 60  at  213.067665 
+broadcast:size is 60  at  213.366878 
+broadcast:size is 60  at  213.469767 
+broadcast:size is 60  at  213.640811 
+broadcast:size is 60  at  213.676025 
+broadcast:size is 60  at  214.159205 
+broadcast:size is 60  at  214.292122 
+broadcast:size is 60  at  214.596742 
+broadcast:size is 60  at  214.596798 
+broadcast:size is 60  at  215.114651 
+broadcast:size is 60  at  215.127928 
+broadcast:size is 60  at  215.133859 
+broadcast:size is 60  at  215.252700 
+UWSink (id:0): I get the packet data no.21 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 14, InterArrival 10.832277
+broadcast:size is 60  at  215.489177 
+broadcast:size is 60  at  215.601044 
+broadcast:size is 60  at  215.745162 
+broadcast:size is 60  at  216.058381 
+broadcast:size is 60  at  216.099867 
+broadcast:size is 60  at  216.380791 
+broadcast:size is 60  at  216.395025 
+broadcast:size is 60  at  217.094988 
+broadcast:size is 60  at  217.243352 
+uw_sink:source(99) send packet 23 at 221.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (63.328528,256.703562,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  221.330025 
+broadcast:size is 60  at  222.127178 
+broadcast:size is 60  at  222.500479 
+broadcast:size is 60  at  222.711016 
+broadcast:size is 60  at  223.075732 
+broadcast:size is 60  at  223.373876 
+broadcast:size is 60  at  223.476152 
+broadcast:size is 60  at  223.647221 
+broadcast:size is 60  at  223.683888 
+broadcast:size is 60  at  224.073745 
+broadcast:size is 60  at  224.166554 
+broadcast:size is 60  at  224.294757 
+broadcast:size is 60  at  224.595532 
+broadcast:size is 60  at  224.719930 
+broadcast:size is 60  at  225.131362 
+broadcast:size is 60  at  225.250633 
+UWSink (id:0): I get the packet data no.22 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 15, InterArrival 9.995326
+broadcast:size is 60  at  225.358639 
+broadcast:size is 60  at  225.500905 
+broadcast:size is 60  at  225.963318 
+broadcast:size is 60  at  225.969069 
+underwater: the packet is interfered at node 56
+broadcast:node 56  gets a corrupted packet at  226.009312
+underwater: the packet is interfered at node 56
+broadcast:node 56  gets a corrupted packet at  226.014500
+broadcast:size is 60  at  226.453917 
+broadcast:size is 60  at  226.575891 
+broadcast:size is 60  at  226.916723 
+broadcast:size is 60  at  226.934766 
+broadcast:size is 60  at  227.229574 
+broadcast:size is 60  at  227.944697 
+uw_sink:source(99) send packet 24 at 231.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (54.901499,257.006185,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  231.330025 
+broadcast:size is 60  at  231.404421 
+broadcast:size is 60  at  231.766802 
+broadcast:size is 60  at  232.167695 
+broadcast:size is 60  at  232.187527 
+broadcast:size is 60  at  232.273174 
+broadcast:size is 60  at  232.587293 
+broadcast:size is 60  at  232.758656 
+broadcast:size is 60  at  232.848132 
+broadcast:size is 60  at  232.913267 
+broadcast:size is 60  at  233.412149 
+broadcast:size is 60  at  233.467259 
+broadcast:size is 60  at  233.710451 
+broadcast:size is 60  at  234.251358 
+broadcast:size is 60  at  234.364957 
+UWSink (id:0): I get the packet data no.23 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 16, InterArrival 9.111983
+uw_sink:source(99) send packet 25 at 241.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (46.474469,257.308808,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  241.330025 
+uw_sink:source(99) send packet 26 at 251.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (37.792075,257.620602,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  251.330025 
+broadcast:size is 60  at  251.478300 
+broadcast:size is 60  at  251.773676 
+broadcast:size is 60  at  251.775842 
+underwater: the packet is interfered at node 27
+broadcast:node 27  gets a corrupted packet at  251.822275
+underwater: the packet is interfered at node 27
+broadcast:node 27  gets a corrupted packet at  251.825298
+underwater: the packet is interfered at node 50
+broadcast:node 50  gets a corrupted packet at  251.836603
+underwater: the packet is interfered at node 50
+broadcast:node 50  gets a corrupted packet at  251.836629
+underwater: the packet is interfered at node 57
+broadcast:node 57  gets a corrupted packet at  251.841952
+underwater: the packet is interfered at node 57
+broadcast:node 57  gets a corrupted packet at  251.845805
+uw_sink:source(99) send packet 27 at 261.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (29.365046,257.923225,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  261.330025 
+broadcast:size is 60  at  261.477037 
+broadcast:size is 60  at  261.769755 
+broadcast:size is 60  at  261.773076 
+broadcast:size is 60  at  262.097305 
+broadcast:size is 60  at  262.189782 
+broadcast:size is 60  at  262.195082 
+broadcast:size is 60  at  262.593437 
+broadcast:size is 60  at  262.767522 
+broadcast:size is 60  at  262.815184 
+broadcast:size is 60  at  263.297456 
+broadcast:size is 60  at  263.525568 
+broadcast:size is 60  at  263.711068 
+broadcast:size is 60  at  263.901012 
+UWSink (id:0): I get the packet data no.26 . Source is 99 Prehop is 15 
+SK 0: Num_Recv 17, InterArrival 29.551795
+broadcast:size is 60  at  264.302095 
+broadcast:size is 60  at  264.309424 
+broadcast:size is 60  at  264.383214 
+broadcast:size is 60  at  265.018572 
+broadcast:size is 60  at  265.701577 
+uw_sink:source(99) send packet 28 at 271.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (20.938016,258.225848,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  271.330025 
+broadcast:size is 60  at  271.476108 
+broadcast:size is 60  at  271.766139 
+broadcast:size is 60  at  271.781190 
+broadcast:size is 60  at  272.099274 
+broadcast:size is 60  at  272.185807 
+broadcast:size is 60  at  272.608191 
+broadcast:size is 60  at  272.779543 
+broadcast:size is 60  at  272.818890 
+broadcast:size is 60  at  273.202678 
+broadcast:size is 60  at  273.301481 
+broadcast:size is 60  at  273.478430 
+broadcast:size is 60  at  273.538567 
+broadcast:size is 60  at  273.779938 
+broadcast:size is 60  at  274.316477 
+broadcast:size is 60  at  274.434059 
+UWSink (id:0): I get the packet data no.27 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 18, InterArrival 10.507563
+broadcast:size is 60  at  275.030208 
+broadcast:size is 60  at  275.711275 
+uw_sink:source(99) send packet 29 at 281.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (12.255622,258.537642,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  281.330025 
+broadcast:size is 60  at  281.475527 
+broadcast:size is 60  at  281.765376 
+broadcast:size is 60  at  282.184964 
+broadcast:size is 60  at  282.184996 
+underwater: the packet is interfered at node 57
+broadcast:node 57  gets a corrupted packet at  282.252458
+underwater: the packet is interfered at node 59
+broadcast:node 59  gets a corrupted packet at  282.253974
+underwater: the packet is interfered at node 57
+broadcast:node 57  gets a corrupted packet at  282.255575
+underwater: the packet is interfered at node 59
+broadcast:node 59  gets a corrupted packet at  282.255961
+broadcast:size is 60  at  282.595458 
+broadcast:size is 60  at  282.629126 
+underwater: the packet is interfered at node 57
+broadcast:node 57  gets a corrupted packet at  282.666500
+underwater: the packet is interfered at node 57
+broadcast:node 57  gets a corrupted packet at  282.668169
+broadcast:size is 60  at  282.767535 
+broadcast:size is 60  at  282.949150 
+broadcast:size is 60  at  283.533759 
+broadcast:size is 60  at  283.671380 
+broadcast:size is 60  at  284.044092 
+broadcast:size is 60  at  284.306539 
+broadcast:size is 60  at  284.560475 
+broadcast:size is 60  at  284.749536 
+UWSink (id:0): I get the packet data no.28 . Source is 99 Prehop is 15 
+SK 0: Num_Recv 19, InterArrival 10.345058
+broadcast:size is 60  at  285.025588 
+broadcast:size is 60  at  285.160365 
+broadcast:size is 60  at  285.232662 
+broadcast:size is 60  at  285.510482 
+broadcast:size is 60  at  285.706273 
+broadcast:size is 60  at  286.068968 
+uw_sink:source(99) send packet 30 at 291.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (26.815114,246.694367,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  291.330025 
+broadcast:size is 60  at  291.476496 
+broadcast:size is 60  at  291.768696 
+broadcast:size is 60  at  292.100535 
+broadcast:size is 60  at  292.188071 
+broadcast:size is 60  at  292.190935 
+broadcast:size is 60  at  292.600109 
+broadcast:size is 60  at  292.661028 
+broadcast:size is 60  at  292.902322 
+broadcast:size is 60  at  293.597881 
+broadcast:size is 60  at  294.372792 
+broadcast:size is 60  at  295.141225 
+broadcast:size is 60  at  295.866625 
+broadcast:size is 60  at  296.349675 
+UWSink (id:0): I get the packet data no.29 . Source is 99 Prehop is 22 
+SK 0: Num_Recv 20, InterArrival 11.600073
+broadcast:size is 60  at  296.548691 
+broadcast:size is 60  at  296.908413 
+uw_sink:source(99) send packet 31 at 301.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (49.682234,230.307597,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  301.330025 
+broadcast:size is 60  at  302.083160 
+broadcast:size is 60  at  302.242767 
+broadcast:size is 60  at  302.603686 
+broadcast:size is 60  at  302.641950 
+broadcast:size is 60  at  303.022838 
+broadcast:size is 60  at  303.031379 
+broadcast:size is 60  at  303.442763 
+broadcast:size is 60  at  303.747982 
+broadcast:size is 60  at  303.758282 
+broadcast:size is 60  at  304.390433 
+broadcast:size is 60  at  304.448158 
+broadcast:size is 60  at  304.487282 
+broadcast:size is 60  at  304.853206 
+broadcast:size is 60  at  305.156290 
+broadcast:size is 60  at  305.370586 
+broadcast:size is 60  at  305.471939 
+broadcast:size is 60  at  305.563662 
+broadcast:size is 60  at  305.887940 
+broadcast:size is 60  at  306.053020 
+broadcast:size is 60  at  306.064463 
+UWSink (id:0): I get the packet data no.30 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 21, InterArrival 9.667192
+broadcast:size is 60  at  306.572811 
+uw_sink:source(99) send packet 32 at 311.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (73.242297,213.424257,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  311.330025 
+broadcast:size is 60  at  311.820052 
+broadcast:size is 60  at  312.516689 
+broadcast:size is 60  at  312.731608 
+broadcast:size is 60  at  312.842873 
+broadcast:size is 60  at  313.213087 
+broadcast:size is 60  at  313.379369 
+broadcast:size is 60  at  313.737585 
+broadcast:size is 60  at  313.773137 
+broadcast:size is 60  at  313.933486 
+broadcast:size is 60  at  314.170850 
+broadcast:size is 60  at  314.426453 
+UWSink (id:0): I get the packet data no.31 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 22, InterArrival 8.371925
+broadcast:size is 60  at  314.524138 
+broadcast:size is 60  at  314.660679 
+broadcast:size is 60  at  315.276124 
+broadcast:size is 60  at  315.376975 
+broadcast:size is 60  at  315.439521 
+uw_sink:source(99) send packet 33 at 321.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (96.109416,197.037487,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  321.330025 
+broadcast:size is 60  at  321.808576 
+broadcast:size is 60  at  321.964366 
+broadcast:size is 60  at  322.197135 
+broadcast:size is 60  at  322.634719 
+broadcast:size is 60  at  322.649014 
+broadcast:size is 60  at  322.721342 
+broadcast:size is 60  at  322.869159 
+broadcast:size is 60  at  322.957890 
+broadcast:size is 60  at  323.203691 
+broadcast:size is 60  at  323.739474 
+broadcast:size is 60  at  324.523664 
+broadcast:size is 60  at  325.188858 
+broadcast:size is 60  at  325.503592 
+broadcast:size is 60  at  326.137953 
+broadcast:size is 60  at  326.162461 
+underwater: the packet is interfered at node 0
+broadcast:node 0  gets a corrupted packet at  326.191105
+underwater: the packet is interfered at node 0
+broadcast:node 0  gets a corrupted packet at  326.194998
+uw_sink:source(99) send packet 34 at 331.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (118.976536,180.650716,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  331.330025 
+broadcast:size is 60  at  331.801380 
+broadcast:size is 60  at  331.955230 
+broadcast:size is 60  at  332.186779 
+broadcast:size is 60  at  332.865546 
+broadcast:size is 60  at  332.911417 
+broadcast:size is 60  at  332.956281 
+broadcast:size is 60  at  333.187477 
+broadcast:size is 60  at  333.659685 
+broadcast:size is 60  at  334.147548 
+uw_sink:source(99) send packet 35 at 341.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (142.536599,163.767377,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  341.330025 
+broadcast:size is 60  at  341.800513 
+broadcast:size is 60  at  341.952744 
+broadcast:size is 60  at  342.185688 
+broadcast:size is 60  at  342.402353 
+broadcast:size is 60  at  342.845790 
+broadcast:size is 60  at  342.868604 
+broadcast:size is 60  at  343.167062 
+broadcast:size is 60  at  343.167553 
+broadcast:size is 60  at  343.306134 
+broadcast:size is 60  at  343.481485 
+broadcast:size is 60  at  343.534135 
+broadcast:size is 60  at  343.745803 
+broadcast:size is 60  at  343.782497 
+broadcast:size is 60  at  343.832082 
+broadcast:size is 60  at  344.011936 
+broadcast:size is 60  at  344.161839 
+broadcast:size is 60  at  344.443286 
+broadcast:size is 60  at  344.610040 
+broadcast:size is 60  at  344.649994 
+broadcast:size is 60  at  344.865090 
+broadcast:size is 60  at  344.995736 
+broadcast:size is 60  at  345.179321 
+broadcast:size is 60  at  345.417999 
+broadcast:size is 60  at  345.938993 
+broadcast:size is 60  at  345.952616 
+underwater: the packet is interfered at node 80
+broadcast:node 80  gets a corrupted packet at  345.987197
+underwater: the packet is interfered at node 80
+broadcast:node 80  gets a corrupted packet at  345.990585
+broadcast:size is 60  at  346.276539 
+broadcast:size is 60  at  346.581118 
+broadcast:size is 60  at  346.729359 
+broadcast:size is 60  at  347.276412 
+broadcast:size is 60  at  347.305215 
+broadcast:size is 60  at  347.337700 
+UWSink (id:0): I get the packet data no.34 . Source is 99 Prehop is 18 
+SK 0: Num_Recv 23, InterArrival 32.941019
+broadcast:size is 60  at  347.812344 
+broadcast:size is 60  at  348.658568 
+uw_sink:source(99) send packet 36 at 351.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (165.403719,147.380607,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  351.330025 
+broadcast:size is 60  at  351.806292 
+broadcast:size is 60  at  351.921341 
+broadcast:size is 60  at  351.957252 
+broadcast:size is 60  at  352.194028 
+broadcast:size is 60  at  352.339394 
+broadcast:size is 60  at  352.698147 
+broadcast:size is 60  at  352.854892 
+broadcast:size is 60  at  352.881560 
+broadcast:size is 60  at  353.108959 
+broadcast:size is 60  at  353.301431 
+broadcast:size is 60  at  353.308683 
+broadcast:size is 60  at  353.722363 
+broadcast:size is 60  at  353.791258 
+broadcast:size is 60  at  354.023505 
+broadcast:size is 60  at  354.245194 
+broadcast:size is 60  at  354.253816 
+broadcast:size is 60  at  354.603556 
+broadcast:size is 60  at  354.616990 
+broadcast:size is 60  at  354.883507 
+broadcast:size is 60  at  355.030953 
+broadcast:size is 60  at  355.169706 
+broadcast:size is 60  at  355.194481 
+broadcast:size is 60  at  355.347634 
+broadcast:size is 60  at  355.535432 
+broadcast:size is 60  at  355.572306 
+UWSink (id:0): I get the packet data no.35 . Source is 99 Prehop is 65 
+SK 0: Num_Recv 24, InterArrival 8.205317
+broadcast:size is 60  at  356.106238 
+broadcast:size is 60  at  356.125850 
+broadcast:size is 60  at  356.959749 
+broadcast:size is 60  at  357.740284 
+uw_sink:source(99) send packet 37 at 361.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (188.270838,130.993836,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  361.330025 
+broadcast:size is 60  at  361.452219 
+broadcast:size is 60  at  361.768835 
+broadcast:size is 60  at  361.816900 
+broadcast:size is 60  at  361.910473 
+broadcast:size is 60  at  361.966961 
+broadcast:size is 60  at  362.023874 
+broadcast:size is 60  at  362.328574 
+broadcast:size is 60  at  362.430682 
+broadcast:size is 60  at  362.683979 
+broadcast:size is 60  at  362.938177 
+broadcast:size is 60  at  363.129388 
+broadcast:size is 60  at  363.178546 
+broadcast:size is 60  at  363.274819 
+broadcast:size is 60  at  363.326775 
+broadcast:size is 60  at  363.448749 
+broadcast:size is 60  at  363.684857 
+broadcast:size is 60  at  363.707381 
+broadcast:size is 60  at  363.816466 
+broadcast:size is 60  at  363.824954 
+UWSink (id:0): I get the packet data no.36 . Source is 99 Prehop is 65 
+SK 0: Num_Recv 25, InterArrival 8.289901
+broadcast:size is 60  at  364.096575 
+broadcast:size is 60  at  364.128530 
+broadcast:size is 60  at  364.235137 
+broadcast:size is 60  at  364.240993 
+broadcast:size is 60  at  364.394831 
+broadcast:size is 60  at  364.614988 
+broadcast:size is 60  at  364.630642 
+broadcast:size is 60  at  364.823478 
+broadcast:size is 60  at  364.866530 
+broadcast:size is 60  at  365.010877 
+broadcast:size is 60  at  365.178536 
+broadcast:size is 60  at  365.357661 
+broadcast:size is 60  at  365.563060 
+broadcast:size is 60  at  366.139876 
+uw_sink:source(99) send packet 38 at 371.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (211.830901,114.110497,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  371.330025 
+broadcast:size is 60  at  371.902918 
+broadcast:size is 60  at  372.321589 
+broadcast:size is 60  at  372.679985 
+broadcast:size is 60  at  373.094753 
+broadcast:size is 60  at  373.212047 
+broadcast:size is 60  at  373.283437 
+broadcast:size is 60  at  373.701649 
+broadcast:size is 60  at  373.740484 
+broadcast:size is 60  at  373.759549 
+underwater: the packet is interfered at node 90
+broadcast:node 90  gets a corrupted packet at  373.808377
+underwater: the packet is interfered at node 90
+broadcast:node 90  gets a corrupted packet at  373.812777
+broadcast:size is 60  at  374.236538 
+broadcast:size is 60  at  374.294457 
+broadcast:size is 60  at  374.378792 
+broadcast:size is 60  at  374.930877 
+broadcast:size is 60  at  375.005212 
+broadcast:size is 60  at  375.500679 
+broadcast:size is 60  at  376.069304 
+UWSink (id:0): I get the packet data no.37 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 26, InterArrival 12.201277
+uw_sink:source(99) send packet 39 at 381.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (234.698021,97.723726,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  381.330025 
+broadcast:size is 60  at  381.900477 
+broadcast:size is 60  at  382.320221 
+broadcast:size is 60  at  382.683999 
+broadcast:size is 60  at  383.103932 
+broadcast:size is 60  at  383.218052 
+broadcast:size is 60  at  383.441408 
+broadcast:size is 60  at  383.701489 
+broadcast:size is 60  at  383.776461 
+broadcast:size is 60  at  384.238597 
+broadcast:size is 60  at  384.244988 
+broadcast:size is 60  at  384.308057 
+broadcast:size is 60  at  384.602528 
+broadcast:size is 60  at  384.863268 
+broadcast:size is 60  at  384.943514 
+broadcast:size is 60  at  384.972048 
+broadcast:size is 60  at  385.534439 
+uw_sink:source(99) send packet 40 at 391.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (257.565141,81.336956,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  391.330025 
+broadcast:size is 60  at  391.903971 
+broadcast:size is 60  at  392.325254 
+broadcast:size is 60  at  392.490743 
+broadcast:size is 60  at  392.940501 
+broadcast:size is 60  at  393.082958 
+broadcast:size is 60  at  393.471042 
+broadcast:size is 60  at  393.651708 
+broadcast:size is 60  at  393.757784 
+broadcast:size is 60  at  393.768380 
+broadcast:size is 60  at  394.108925 
+broadcast:size is 60  at  394.136914 
+broadcast:size is 60  at  394.390008 
+broadcast:size is 60  at  394.675132 
+broadcast:size is 60  at  395.047889 
+broadcast:size is 60  at  395.101423 
+broadcast:size is 60  at  395.241858 
+UWSink (id:0): I get the packet data no.39 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 27, InterArrival 19.173579
+broadcast:size is 60  at  395.523952 
+broadcast:size is 60  at  396.341421 
+uw_sink:source(99) send packet 41 at 401.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (277.527997,68.392420,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  401.330025 
+broadcast:size is 60  at  401.909733 
+broadcast:size is 60  at  402.332975 
+broadcast:size is 60  at  402.498364 
+broadcast:size is 60  at  402.810003 
+broadcast:size is 60  at  402.951633 
+broadcast:size is 60  at  403.229002 
+broadcast:size is 60  at  403.309732 
+broadcast:size is 60  at  403.707953 
+broadcast:size is 60  at  403.775791 
+broadcast:size is 60  at  403.782303 
+broadcast:size is 60  at  404.151259 
+broadcast:size is 60  at  404.369407 
+broadcast:size is 60  at  404.397504 
+broadcast:size is 60  at  404.677261 
+broadcast:size is 60  at  405.061530 
+broadcast:size is 60  at  405.117586 
+broadcast:size is 60  at  405.243081 
+UWSink (id:0): I get the packet data no.40 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 28, InterArrival 10.002248
+uw_sink:source(99) send packet 42 at 411.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (272.734193,83.056073,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  411.330025 
+broadcast:size is 60  at  411.900662 
+broadcast:size is 60  at  412.326227 
+broadcast:size is 60  at  412.695786 
+broadcast:size is 60  at  412.798840 
+broadcast:size is 60  at  413.048101 
+broadcast:size is 60  at  413.102679 
+broadcast:size is 60  at  413.143001 
+broadcast:size is 60  at  413.480416 
+broadcast:size is 60  at  413.749883 
+broadcast:size is 60  at  413.797390 
+broadcast:size is 60  at  414.066375 
+broadcast:size is 60  at  414.154667 
+broadcast:size is 60  at  414.285367 
+broadcast:size is 60  at  414.289476 
+broadcast:size is 60  at  414.612876 
+broadcast:size is 60  at  414.624435 
+underwater: the packet is interfered at node 36
+broadcast:node 36  gets a corrupted packet at  414.678524
+underwater: the packet is interfered at node 36
+broadcast:node 36  gets a corrupted packet at  414.681904
+broadcast:size is 60  at  414.686033 
+broadcast:size is 60  at  414.768543 
+UWSink (id:0): I get the packet data no.41 . Source is 99 Prehop is 42 
+SK 0: Num_Recv 29, InterArrival 9.554686
+broadcast:size is 60  at  414.911381 
+broadcast:size is 60  at  415.080071 
+broadcast:size is 60  at  415.274740 
+broadcast:size is 60  at  415.327678 
+broadcast:size is 60  at  415.366274 
+broadcast:size is 60  at  415.429342 
+broadcast:size is 60  at  415.511873 
+broadcast:size is 60  at  415.558240 
+broadcast:size is 60  at  415.603095 
+broadcast:size is 60  at  415.909189 
+broadcast:size is 60  at  416.049532 
+broadcast:size is 60  at  416.058874 
+broadcast:size is 60  at  416.449986 
+uw_sink:source(99) send packet 43 at 421.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (267.940388,97.719727,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  421.330025 
+broadcast:size is 60  at  421.893589 
+broadcast:size is 60  at  422.321794 
+broadcast:size is 60  at  422.790342 
+uw_sink:source(99) send packet 44 at 431.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (263.001317,112.827734,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  431.330025 
+broadcast:size is 60  at  431.889869 
+broadcast:size is 60  at  432.223247 
+broadcast:size is 60  at  432.484596 
+broadcast:size is 60  at  432.802571 
+broadcast:size is 60  at  432.980049 
+broadcast:size is 60  at  433.035722 
+broadcast:size is 60  at  433.233538 
+broadcast:size is 60  at  433.286349 
+broadcast:size is 60  at  433.525611 
+broadcast:size is 60  at  433.695238 
+broadcast:size is 60  at  433.786179 
+broadcast:size is 60  at  433.807249 
+broadcast:size is 60  at  433.815045 
+broadcast:size is 60  at  433.825737 
+broadcast:size is 60  at  433.868149 
+underwater: the packet is interfered at node 20
+broadcast:node 20  gets a corrupted packet at  433.882230
+underwater: the packet is interfered at node 20
+broadcast:node 20  gets a corrupted packet at  433.887525
+broadcast:size is 60  at  433.948465 
+broadcast:size is 60  at  434.163462 
+broadcast:size is 60  at  434.196861 
+broadcast:size is 60  at  434.294403 
+broadcast:size is 60  at  434.320798 
+broadcast:size is 60  at  434.331401 
+broadcast:size is 60  at  434.378601 
+UWSink (id:0): I get the packet data no.43 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 30, InterArrival 19.585317
+broadcast:size is 60  at  434.526481 
+broadcast:size is 60  at  434.550720 
+broadcast:size is 60  at  434.581192 
+broadcast:size is 60  at  434.707572 
+broadcast:size is 60  at  435.141338 
+broadcast:size is 60  at  435.145042 
+broadcast:size is 60  at  435.327312 
+broadcast:size is 60  at  435.400817 
+broadcast:size is 60  at  435.450799 
+broadcast:size is 60  at  435.475252 
+broadcast:size is 60  at  436.056605 
+broadcast:size is 60  at  436.260057 
+uw_sink:source(99) send packet 45 at 441.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (258.207513,127.491387,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  441.330025 
+broadcast:size is 60  at  441.890665 
+broadcast:size is 60  at  441.924679 
+broadcast:size is 60  at  442.217575 
+broadcast:size is 60  at  442.296638 
+broadcast:size is 60  at  442.478347 
+broadcast:size is 60  at  442.643884 
+broadcast:size is 60  at  442.801768 
+broadcast:size is 60  at  442.976724 
+broadcast:size is 60  at  443.067573 
+broadcast:size is 60  at  443.306981 
+broadcast:size is 60  at  443.419810 
+broadcast:size is 60  at  443.695055 
+broadcast:size is 60  at  443.724409 
+broadcast:size is 60  at  443.782477 
+broadcast:size is 60  at  443.817079 
+broadcast:size is 60  at  444.014385 
+broadcast:size is 60  at  444.124151 
+broadcast:size is 60  at  444.256015 
+broadcast:size is 60  at  444.317382 
+broadcast:size is 60  at  444.366779 
+broadcast:size is 60  at  444.664267 
+broadcast:size is 60  at  444.852919 
+broadcast:size is 60  at  445.362337 
+broadcast:size is 60  at  445.511322 
+broadcast:size is 60  at  445.974429 
+broadcast:size is 60  at  446.074140 
+broadcast:size is 60  at  446.079054 
+UWSink (id:0): I get the packet data no.44 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 31, InterArrival 11.697812
+broadcast:size is 60  at  446.825964 
+uw_sink:source(99) send packet 46 at 451.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (253.413708,142.155041,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  451.330025 
+broadcast:size is 60  at  451.493022 
+broadcast:size is 60  at  451.952571 
+broadcast:size is 60  at  452.125795 
+broadcast:size is 60  at  452.167685 
+broadcast:size is 60  at  452.755555 
+broadcast:size is 60  at  452.931399 
+broadcast:size is 60  at  453.015342 
+broadcast:size is 60  at  453.076650 
+broadcast:size is 60  at  453.338508 
+broadcast:size is 60  at  453.457622 
+broadcast:size is 60  at  453.919317 
+broadcast:size is 60  at  454.580101 
+broadcast:size is 60  at  454.969898 
+broadcast:size is 60  at  455.111348 
+broadcast:size is 60  at  455.218641 
+broadcast:size is 60  at  455.519104 
+broadcast:size is 60  at  455.521729 
+broadcast:size is 60  at  455.966375 
+broadcast:size is 60  at  456.214517 
+broadcast:size is 60  at  456.228103 
+broadcast:size is 60  at  456.233221 
+broadcast:size is 60  at  456.338836 
+broadcast:size is 60  at  456.537489 
+broadcast:size is 60  at  456.824077 
+broadcast:size is 60  at  456.901067 
+broadcast:size is 60  at  456.938990 
+UWSink (id:0): I get the packet data no.45 . Source is 99 Prehop is 81 
+SK 0: Num_Recv 32, InterArrival 10.829205
+broadcast:size is 60  at  457.147827 
+broadcast:size is 60  at  457.694966 
+broadcast:size is 60  at  457.722621 
+uw_sink:source(99) send packet 47 at 461.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (248.474637,157.263048,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  461.330025 
+broadcast:size is 60  at  461.490129 
+broadcast:size is 60  at  461.946106 
+broadcast:size is 60  at  461.947919 
+broadcast:size is 60  at  462.119938 
+broadcast:size is 60  at  462.225291 
+broadcast:size is 60  at  462.489375 
+broadcast:size is 60  at  462.913270 
+broadcast:size is 60  at  462.925597 
+broadcast:size is 60  at  463.308220 
+broadcast:size is 60  at  463.443279 
+broadcast:size is 60  at  463.443829 
+broadcast:size is 60  at  463.732675 
+uw_sink:source(99) send packet 48 at 471.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (243.680832,171.926701,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  471.330025 
+broadcast:size is 60  at  471.488693 
+broadcast:size is 60  at  471.913103 
+broadcast:size is 60  at  471.945562 
+broadcast:size is 60  at  472.117137 
+broadcast:size is 60  at  472.228390 
+broadcast:size is 60  at  472.318497 
+broadcast:size is 60  at  472.442007 
+broadcast:size is 60  at  472.609746 
+broadcast:size is 60  at  472.879968 
+broadcast:size is 60  at  472.899973 
+broadcast:size is 60  at  472.923075 
+broadcast:size is 60  at  473.436116 
+uw_sink:source(99) send packet 49 at 481.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (238.887028,186.590355,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  481.330025 
+broadcast:size is 60  at  481.488818 
+broadcast:size is 60  at  481.923564 
+broadcast:size is 60  at  481.945659 
+broadcast:size is 60  at  482.117569 
+broadcast:size is 60  at  482.238669 
+broadcast:size is 60  at  482.319907 
+broadcast:size is 60  at  482.449789 
+broadcast:size is 60  at  482.613335 
+broadcast:size is 60  at  482.617427 
+broadcast:size is 60  at  482.903254 
+broadcast:size is 60  at  483.133969 
+broadcast:size is 60  at  483.327093 
+broadcast:size is 60  at  483.360607 
+broadcast:size is 60  at  483.709273 
+broadcast:size is 60  at  483.720198 
+broadcast:size is 60  at  483.745580 
+broadcast:size is 60  at  483.843568 
+broadcast:size is 60  at  483.934965 
+broadcast:size is 60  at  484.388226 
+broadcast:size is 60  at  484.632760 
+broadcast:size is 60  at  485.190858 
+uw_sink:source(99) send packet 50 at 491.330000 : the coordinates of target is (500.000000,500.000000,500.000000) and range=50.000000 and my position (233.947957,201.698362,0.000000) and cx is(250.000000,250.000000,0.000000)  
+broadcast:size is 60  at  491.330025 
+broadcast:size is 60  at  491.490496 
+broadcast:size is 60  at  491.948203 
+broadcast:size is 60  at  492.121216 
+broadcast:size is 60  at  492.303883 
+broadcast:size is 60  at  492.325191 
+underwater: the packet is interfered at node 77
+broadcast:node 77  gets a corrupted packet at  492.353897
+underwater: the packet is interfered at node 77
+broadcast:node 77  gets a corrupted packet at  492.354141
+broadcast:size is 60  at  492.496227 
+broadcast:size is 60  at  492.502707 
+broadcast:size is 60  at  492.856564 
+broadcast:size is 60  at  492.860105 
+broadcast:size is 60  at  492.911179 
+broadcast:size is 60  at  492.912450 
+underwater: the packet is interfered at node 61
+broadcast:node 61  gets a corrupted packet at  492.917823
+underwater: the packet is interfered at node 61
+broadcast:node 61  gets a corrupted packet at  492.919433
+broadcast:size is 60  at  492.975231 
+broadcast:size is 60  at  493.092492 
+broadcast:size is 60  at  493.117440 
+broadcast:size is 60  at  493.303128 
+broadcast:size is 60  at  493.439250 
+broadcast:size is 60  at  493.442329 
+broadcast:size is 60  at  493.483273 
+broadcast:size is 60  at  493.540803 
+broadcast:size is 60  at  493.544602 
+UWSink (id:0): I get the packet data no.49 . Source is 99 Prehop is 11 
+SK 0: Num_Recv 33, InterArrival 36.641112
+broadcast:size is 60  at  NS EXISTING...
+493.731234 
+broadcast:size is 60  at  493.791499 
+broadcast:size is 60  at  494.044938 
+broadcast:size is 60  at  494.311934 
+broadcast:size is 60  at  494.326854 
+broadcast:size is 60  at  494.609052 
+broadcast:size is 60  at  494.665536 
+broadcast:size is 60  at  494.855930 
+broadcast:size is 60  at  495.102172 
+broadcast:size is 60  at  495.177177 
+broadcast:size is 60  at  495.962479 
+SINK 99 : terminates (send 50, recv 0, cum_delay 0.000000)
+SINK 0 : terminates (send 0, recv 33, cum_delay 116.274003)
+god: the energy consumped is 594.658380
