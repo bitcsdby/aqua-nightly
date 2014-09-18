@@ -195,6 +195,7 @@ void UWSinkAgent::sendpkt()
 	    dbh->owner() = here_.addr_;
 	    dbh->prev_hop() = here_.addr_;
 	    dbh->ts_ = NOW;
+	    dbh->range = range_;
 
 	      // vbh->data_type = data_type_;
 	     // dbh->forward_agent_id = here_;

@@ -31,10 +31,6 @@ PATH: /usr/lib/jvm/jdk1.7.0_67/bin
 PATH: /home/diaoboyu/ns-allinone-2.30/bin
 PATH: /home/diaoboyu/ns-allinone-2.30/tcl8.4.13/unix
 PATH: /home/diaoboyu/ns-allinone-2.30/tk8.4.5/unix
-PATH: /usr/lib/jvm/jdk1.7.0_67/bin
-PATH: /home/diaoboyu/ns-allinone-2.30/bin
-PATH: /home/diaoboyu/ns-allinone-2.30/tcl8.4.13/unix
-PATH: //home/diaoboyu/ns-allinone-2.30/tk8.4.5/unix
 PATH: /usr/local/sbin
 PATH: /usr/local/bin
 PATH: /usr/sbin
@@ -804,9 +800,9 @@ configure:6917: $? = 0
 configure:6929: result: yes
 configure:6842: checking for fesetprecision
 configure:6899: gcc -o conftest -g -O2   conftest.c -lm  >&5
-/tmp/cc49mnS8.o: In function `main':
+/tmp/cc6fe3x7.o: In function `main':
 /home/diaoboyu/ns-allinone-2.30/ns-2.30/conftest.c:85: undefined reference to `fesetprecision'
-/tmp/cc49mnS8.o:(.data+0x0): undefined reference to `fesetprecision'
+/tmp/cc6fe3x7.o:(.data+0x0): undefined reference to `fesetprecision'
 collect2: ld returned 1 exit status
 configure:6905: $? = 1
 configure: failed program was:
@@ -1132,9 +1128,9 @@ configure:8410: $? = 0
 configure:8417: result: found
 configure:8436: checking for addr2ascii
 configure:8493: gcc -o conftest -g -O2   conftest.c -lm  >&5
-/tmp/ccUqfc05.o: In function `main':
+/tmp/cc8dLOP5.o: In function `main':
 /home/diaoboyu/ns-allinone-2.30/ns-2.30/conftest.c:96: undefined reference to `addr2ascii'
-/tmp/ccUqfc05.o:(.data+0x0): undefined reference to `addr2ascii'
+/tmp/cc8dLOP5.o:(.data+0x0): undefined reference to `addr2ascii'
 collect2: ld returned 1 exit status
 configure:8499: $? = 1
 configure: failed program was:

@@ -33,7 +33,7 @@ public:
 
 class MobileNode;
 
-double UnderwaterChannel::distCST_ =100.0;
+double UnderwaterChannel::distCST_ = 1000.0;
 
 
 UnderwaterChannel::UnderwaterChannel(void) : Channel(), numNodes_(0), 
@@ -105,7 +105,7 @@ UnderwaterChannel::sendUp(Packet* p, Phy *tifp)
 		     
                          // add by peng Xie
 		      
-                         calculatePosition(tnode,rnode,newp);
+             calculatePosition(tnode,rnode,newp);
 			 propdelay = get_pdelay(tnode, rnode);	      
  
 			 rifp = (rnode->ifhead()).lh_first;

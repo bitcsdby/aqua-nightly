@@ -528,6 +528,7 @@ DBR_Agent::DBR_Agent() : Agent(PT_DBR),
 
 	// create packet cache
 	pc_ = new PktCache();
+	total_pkt_received = 0;
 }
 
 
@@ -931,6 +932,17 @@ void DBR_Agent::recv(Packet *p, Handler *)
 		return;
 	}
 
+	//dby add ,here we assumption there are 4 sinks on the surface
+	//src < 4 indicates that packet is brocasted by one of the sinks
+	if(src < 4 && mn_->address() > 3)
+	{
+		total_pkt_received++;
+		printf("I receive packages form surface sinks!!! sink No. is %d my No. is %d\n",src,mn_->address());
+		printf("total_pkt_received = %d\n",total_pkt_received);
+		return ;
+	}
+
+
 	// packet I'm forwarding
 
 	handlePktForward(p);
@@ -1070,13 +1082,15 @@ void DBR_Agent::handlePktForward(Packet *p)
 
 		//printf("angle = %lf\n",angle);
 
-		if(l_dis > 10000)
-		{
-			pkt_saved++;
-			pq_.purge(p);
-			drop(p, DROP_RTR_TTL);
-			return;
-		}
+		// key codes for EE-DBR by diaoboyu
+
+//		if(l_dis > 10000)
+//		{
+//			pkt_saved++;
+//			pq_.purge(p);
+//			drop(p, DROP_RTR_TTL);
+//			return;
+//		}
 
 		//if(angle > 45.3 && angle < 45.4)
 		//	printf("here");

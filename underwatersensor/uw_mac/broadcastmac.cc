@@ -160,6 +160,7 @@ BroadcastMac::TxProcess(Packet* pkt){
 	cmh->ts_ = NOW;
 
 	Scheduler& s=Scheduler::instance();
+
 	switch( n->TransmissionStatus() )
 	{
 		case SLEEP:

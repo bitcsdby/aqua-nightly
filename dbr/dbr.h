@@ -152,6 +152,10 @@ public:
 	double ts_;                       // Timestamp when pkt is generated.
 	double ts_prehop;				//timestamp of last hop
 
+	double range;    // target range
+
+
+
 	int& packetID() { return packetID_; }
 	
 	int& valid() { return valid_; }
@@ -211,6 +215,8 @@ public:
 
 	static int pkt_saved ;
 	static int pkt_all;
+
+	int total_pkt_received;
 
 protected:
 	Trace *traceagent;	// Trace agent 
