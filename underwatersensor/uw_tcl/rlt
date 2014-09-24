@@ -1,0 +1,1418 @@
+the file name is s1.data
+the sending interval is 10.0
+4 sink nodes inited
+underwaternode 4 inited
+starting Simulation...
+num_nodes is set 5
+GOD: the old file name istest.data
+GOD: the new file name iss1.data
+uw_sink:source(0) send packet 1 at 2.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 1
+x = 299.148993,y = 374.587614,z = 398.837900
+acos angle between sink and source is 62.606480
+angle 0 is 62.606480
+timeout expire=============================
+uw_sink:source(1) send packet 1 at 5.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.0 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 2
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 2
+x = 305.177427,y = 370.075163,z = 398.837900
+acos angle between sink and source is 71.958596
+angle 1 is 71.958596
+uw_sink:source(2) send packet 1 at 7.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 3
+x = 308.790315,y = 367.370816,z = 398.837900
+acos angle between sink and source is 30.843990
+angle 2 is 30.843990
+uw_sink:source(3) send packet 1 at 9.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 4
+x = 312.916977,y = 364.281894,z = 398.837900
+acos angle between sink and source is 67.402978
+angle 3 is 67.402978
+uw_sink:source(0) send packet 2 at 12.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 5
+x = 318.744333,y = 359.919956,z = 398.837900
+acos angle between sink and source is 64.075752
+angle 0 is 64.075752
+uw_sink:source(1) send packet 2 at 15.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.1 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 6
+SK 0: Num_Recv 2, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 6
+x = 324.757317,y = 355.419069,z = 398.837900
+acos angle between sink and source is 72.008318
+angle 1 is 72.008318
+uw_sink:source(2) send packet 2 at 17.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 7
+x = 328.363256,y = 352.719924,z = 398.837900
+acos angle between sink and source is 27.363904
+angle 2 is 27.363904
+uw_sink:source(3) send packet 2 at 19.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 8
+x = 332.479926,y = 349.638481,z = 398.837900
+acos angle between sink and source is 66.378219
+angle 3 is 66.378219
+uw_sink:source(0) send packet 3 at 22.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 9
+x = 338.341837,y = 345.250678,z = 398.837900
+acos angle between sink and source is 65.550131
+angle 0 is 65.550131
+uw_sink:source(1) send packet 3 at 25.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.2 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 10
+SK 0: Num_Recv 3, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 10
+x = 344.339392,y = 340.761340,z = 398.837900
+acos angle between sink and source is 72.142473
+angle 1 is 72.142473
+uw_sink:source(2) send packet 3 at 27.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 11
+x = 347.942729,y = 338.064142,z = 398.837900
+acos angle between sink and source is 27.924751
+angle 2 is 27.924751
+uw_sink:source(3) send packet 3 at 29.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 12
+x = 352.045151,y = 334.993365,z = 398.837900
+acos angle between sink and source is 65.422813
+angle 3 is 65.422813
+uw_sink:source(0) send packet 4 at 32.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 13
+x = 353.609930,y = 331.682251,z = 398.837900
+acos angle between sink and source is 66.684256
+angle 0 is 66.684256
+uw_sink:source(1) send packet 4 at 35.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.3 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 14
+SK 0: Num_Recv 4, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 14
+x = 351.949194,y = 328.814269,z = 398.837900
+acos angle between sink and source is 72.028611
+angle 1 is 72.028611
+uw_sink:source(2) send packet 4 at 37.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 15
+x = 350.948035,y = 327.085333,z = 398.837900
+acos angle between sink and source is 26.408729
+angle 2 is 26.408729
+uw_sink:source(3) send packet 4 at 39.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 16
+x = 349.811180,y = 325.122057,z = 398.837900
+acos angle between sink and source is 64.485104
+angle 3 is 64.485104
+uw_sink:source(0) send packet 5 at 42.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 17
+x = 348.173369,y = 322.293665,z = 398.837900
+acos angle between sink and source is 66.154157
+angle 0 is 66.154157
+uw_sink:source(1) send packet 5 at 45.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.4 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 18
+SK 0: Num_Recv 5, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 18
+x = 346.514058,y = 319.428142,z = 398.837900
+acos angle between sink and source is 71.509485
+angle 1 is 71.509485
+uw_sink:source(2) send packet 5 at 47.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 19
+x = 345.510815,y = 317.695608,z = 398.837900
+acos angle between sink and source is 22.152003
+angle 2 is 22.152003
+uw_sink:source(3) send packet 5 at 49.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 20
+x = 344.375874,y = 315.735638,z = 398.837900
+acos angle between sink and source is 63.456706
+angle 3 is 63.456706
+uw_sink:source(0) send packet 6 at 52.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 21
+x = 342.736695,y = 312.904883,z = 398.837900
+acos angle between sink and source is 65.628361
+angle 0 is 65.628361
+uw_sink:source(1) send packet 6 at 55.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.5 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 22
+SK 0: Num_Recv 6, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 22
+x = 341.078899,y = 310.041978,z = 398.837900
+acos angle between sink and source is 70.962286
+angle 1 is 70.962286
+uw_sink:source(2) send packet 6 at 57.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 23
+x = 340.073259,y = 308.305303,z = 398.837900
+acos angle between sink and source is 17.941987
+angle 2 is 17.941987
+uw_sink:source(3) send packet 6 at 59.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 24
+x = 338.940523,y = 306.349141,z = 398.837900
+acos angle between sink and source is 62.353334
+angle 3 is 62.353334
+uw_sink:source(0) send packet 7 at 62.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 25
+x = 337.299899,y = 303.515892,z = 398.837900
+acos angle between sink and source is 65.111190
+angle 0 is 65.111190
+uw_sink:source(1) send packet 7 at 65.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.6 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 26
+SK 0: Num_Recv 7, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 26
+x = 335.643717,y = 300.655773,z = 398.837900
+acos angle between sink and source is 70.384974
+angle 1 is 70.384974
+uw_sink:source(2) send packet 7 at 67.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 27
+x = 334.635337,y = 298.914366,z = 398.837900
+acos angle between sink and source is 14.200792
+angle 2 is 14.200792
+uw_sink:source(3) send packet 7 at 69.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 28
+x = 333.505120,y = 296.962556,z = 398.837900
+acos angle between sink and source is 61.168275
+angle 3 is 61.168275
+uw_sink:source(0) send packet 8 at 72.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 29
+x = 331.862976,y = 294.126679,z = 398.837900
+acos angle between sink and source is 64.607531
+angle 0 is 64.607531
+uw_sink:source(1) send packet 8 at 75.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.7 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 30
+SK 0: Num_Recv 8, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 30
+x = 330.208509,y = 291.269524,z = 398.837900
+acos angle between sink and source is 69.775351
+angle 1 is 69.775351
+uw_sink:source(2) send packet 8 at 77.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 31
+x = 329.197026,y = 289.522758,z = 398.837900
+acos angle between sink and source is 11.768021
+angle 2 is 11.768021
+uw_sink:source(3) send packet 8 at 79.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 32
+x = 328.069661,y = 287.575872,z = 398.837900
+acos angle between sink and source is 59.894416
+angle 3 is 59.894416
+uw_sink:source(0) send packet 9 at 82.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 33
+x = 326.425916,y = 284.737231,z = 398.837900
+acos angle between sink and source is 64.122802
+angle 0 is 64.122802
+uw_sink:source(1) send packet 9 at 85.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.8 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 34
+SK 0: Num_Recv 9, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 34
+x = 324.773273,y = 281.883225,z = 398.837900
+acos angle between sink and source is 69.131059
+angle 1 is 69.131059
+uw_sink:source(2) send packet 9 at 87.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 35
+x = 323.758313,y = 280.130456,z = 398.837900
+acos angle between sink and source is 11.713705
+angle 2 is 11.713705
+uw_sink:source(3) send packet 9 at 89.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 36
+x = 322.634137,y = 278.189076,z = 398.837900
+acos angle between sink and source is 58.524377
+angle 3 is 58.524377
+uw_sink:source(0) send packet 10 at 92.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 37
+x = 320.988712,y = 275.347535,z = 398.837900
+acos angle between sink and source is 63.662875
+angle 0 is 63.662875
+uw_sink:source(1) send packet 10 at 95.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.9 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 38
+SK 0: Num_Recv 10, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 38
+x = 319.338006,y = 272.496873,z = 398.837900
+acos angle between sink and source is 68.449575
+angle 1 is 68.449575
+uw_sink:source(2) send packet 10 at 97.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 39
+x = 318.319199,y = 270.737460,z = 398.837900
+acos angle between sink and source is 14.068978
+angle 2 is 14.068978
+uw_sink:source(3) send packet 10 at 99.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 40
+x = 317.198539,y = 268.802152,z = 398.837900
+acos angle between sink and source is 57.050736
+angle 3 is 57.050736
+uw_sink:source(0) send packet 11 at 102.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 41
+x = 315.551357,y = 265.957578,z = 398.837900
+acos angle between sink and source is 63.233970
+angle 0 is 63.233970
+uw_sink:source(1) send packet 11 at 105.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.10 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 42
+SK 0: Num_Recv 11, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 42
+x = 313.902705,y = 263.110462,z = 398.837900
+acos angle between sink and source is 67.728219
+angle 1 is 67.728219
+uw_sink:source(2) send packet 11 at 107.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 43
+x = 312.879695,y = 261.343791,z = 398.837900
+acos angle between sink and source is 17.776824
+angle 2 is 17.776824
+uw_sink:source(3) send packet 11 at 109.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 44
+x = 311.762857,y = 259.415085,z = 398.837900
+acos angle between sink and source is 55.466414
+angle 3 is 55.466414
+uw_sink:source(0) send packet 12 at 112.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 45
+x = 310.113844,y = 256.567347,z = 398.837900
+acos angle between sink and source is 62.842489
+angle 0 is 62.842489
+uw_sink:source(1) send packet 12 at 115.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.11 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 46
+SK 0: Num_Recv 12, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 46
+x = 308.467366,y = 253.723986,z = 398.837900
+acos angle between sink and source is 66.964158
+angle 1 is 66.964158
+uw_sink:source(2) send packet 12 at 117.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 47
+x = 307.439824,y = 251.949488,z = 398.837900
+acos angle between sink and source is 21.978128
+angle 2 is 21.978128
+uw_sink:source(3) send packet 12 at 119.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 48
+x = 306.327080,y = 250.027853,z = 398.837900
+acos angle between sink and source is 53.765260
+angle 3 is 53.765260
+uw_sink:source(0) send packet 13 at 122.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 49
+x = 304.676166,y = 247.176830,z = 398.837900
+acos angle between sink and source is 62.494817
+angle 0 is 62.494817
+uw_sink:source(1) send packet 13 at 125.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.12 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 50
+SK 0: Num_Recv 13, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 50
+x = 303.031986,y = 244.337439,z = 398.837900
+acos angle between sink and source is 66.154436
+angle 1 is 66.154436
+uw_sink:source(2) send packet 13 at 127.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 51
+x = 301.999616,y = 242.554603,z = 398.837900
+acos angle between sink and source is 26.237856
+angle 2 is 26.237856
+uw_sink:source(3) send packet 13 at 129.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 52
+x = 300.891195,y = 240.640433,z = 398.837900
+acos angle between sink and source is 51.942963
+angle 3 is 51.942963
+uw_sink:source(0) send packet 14 at 132.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 53
+x = 299.238316,y = 237.786018,z = 398.837900
+acos angle between sink and source is 62.197081
+angle 0 is 62.197081
+uw_sink:source(1) send packet 14 at 135.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.13 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 54
+SK 0: Num_Recv 14, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 54
+x = 297.596559,y = 234.950812,z = 398.837900
+acos angle between sink and source is 65.296004
+angle 1 is 65.296004
+uw_sink:source(2) send packet 14 at 137.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 55
+x = 296.559104,y = 233.159195,z = 398.837900
+acos angle between sink and source is 30.349472
+angle 2 is 30.349472
+uw_sink:source(3) send packet 14 at 139.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 56
+x = 295.455186,y = 231.252800,z = 398.837900
+acos angle between sink and source is 49.998386
+angle 3 is 49.998386
+uw_sink:source(0) send packet 15 at 142.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 57
+x = 293.800289,y = 228.394901,z = 398.837900
+acos angle between sink and source is 61.954885
+angle 0 is 61.954885
+uw_sink:source(1) send packet 15 at 145.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.14 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 58
+SK 0: Num_Recv 15, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 58
+x = 292.161082,y = 225.564097,z = 398.837900
+acos angle between sink and source is 64.385782
+angle 1 is 64.385782
+uw_sink:source(2) send packet 15 at 147.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 59
+x = 291.118326,y = 223.763324,z = 398.837900
+acos angle between sink and source is 34.216097
+angle 2 is 34.216097
+uw_sink:source(3) send packet 15 at 149.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 60
+x = 290.019035,y = 221.864922,z = 398.837900
+acos angle between sink and source is 47.935495
+angle 3 is 47.935495
+uw_sink:source(0) send packet 16 at 152.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 61
+x = 288.362081,y = 219.003470,z = 398.837900
+acos angle between sink and source is 61.773043
+angle 0 is 61.773043
+uw_sink:source(1) send packet 16 at 155.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.15 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 62
+SK 0: Num_Recv 16, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 62
+x = 286.725548,y = 216.177285,z = 398.837900
+acos angle between sink and source is 63.420746
+angle 1 is 63.420746
+uw_sink:source(2) send packet 16 at 157.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 63
+x = 285.677313,y = 214.367051,z = 398.837900
+acos angle between sink and source is 37.797438
+angle 2 is 37.797438
+uw_sink:source(3) send packet 16 at 159.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 64
+x = 284.582723,y = 212.476765,z = 398.837900
+acos angle between sink and source is 45.766045
+angle 3 is 45.766045
+uw_sink:source(0) send packet 17 at 162.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 65
+x = 282.923689,y = 209.611721,z = 398.837900
+acos angle between sink and source is 61.655322
+angle 0 is 61.655322
+uw_sink:source(1) send packet 17 at 165.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.16 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 66
+SK 0: Num_Recv 17, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 66
+x = 281.289952,y = 206.790363,z = 398.837900
+acos angle between sink and source is 62.398056
+angle 1 is 62.398056
+uw_sink:source(2) send packet 17 at 167.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 67
+x = 280.236099,y = 204.970429,z = 398.837900
+acos angle between sink and source is 41.084275
+angle 2 is 41.084275
+uw_sink:source(3) send packet 17 at 169.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 68
+x = 279.146228,y = 203.088292,z = 398.837900
+acos angle between sink and source is 43.513185
+angle 3 is 43.513185
+uw_sink:source(0) send packet 18 at 172.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 69
+x = 277.485110,y = 200.219650,z = 398.837900
+acos angle between sink and source is 61.604235
+angle 0 is 61.604235
+uw_sink:source(1) send packet 18 at 175.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.17 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 70
+SK 0: Num_Recv 18, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 70
+x = 275.854285,y = 197.403321,z = 398.837900
+acos angle between sink and source is 61.315239
+angle 1 is 61.315239
+uw_sink:source(2) send packet 18 at 177.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 71
+x = 274.794711,y = 195.573507,z = 398.837900
+acos angle between sink and source is 44.084638
+angle 2 is 44.084638
+uw_sink:source(3) send packet 18 at 179.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 72
+x = 273.709525,y = 193.699462,z = 398.837900
+acos angle between sink and source is 41.215975
+angle 3 is 41.215975
+uw_sink:source(0) send packet 19 at 182.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 73
+x = 272.046343,y = 190.827254,z = 398.837900
+acos angle between sink and source is 61.620888
+angle 0 is 61.620888
+uw_sink:source(1) send packet 19 at 185.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.18 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 74
+SK 0: Num_Recv 19, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 74
+x = 270.418539,y = 188.016143,z = 398.837900
+acos angle between sink and source is 60.170440
+angle 1 is 60.170440
+uw_sink:source(2) send packet 19 at 187.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 75
+x = 269.353175,y = 186.176328,z = 398.837900
+acos angle between sink and source is 46.815688
+angle 2 is 46.815688
+uw_sink:source(3) send packet 19 at 189.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 76
+x = 268.272590,y = 184.310229,z = 398.837900
+acos angle between sink and source is 38.934520
+angle 3 is 38.934520
+uw_sink:source(0) send packet 20 at 192.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 77
+x = 266.607389,y = 181.434534,z = 398.837900
+acos angle between sink and source is 61.704920
+angle 0 is 61.704920
+uw_sink:source(1) send packet 20 at 195.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.19 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 78
+SK 0: Num_Recv 20, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 78
+x = 264.982706,y = 178.628814,z = 398.837900
+acos angle between sink and source is 58.962770
+angle 1 is 58.962770
+uw_sink:source(2) send packet 20 at 197.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 79
+x = 263.911510,y = 176.778928,z = 398.837900
+acos angle between sink and source is 49.298827
+angle 2 is 49.298827
+uw_sink:source(3) send packet 20 at 199.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 80
+x = 262.835396,y = 174.920548,z = 398.837900
+acos angle between sink and source is 36.754625
+angle 3 is 36.754625
+uw_sink:source(0) send packet 21 at 202.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 81
+x = 261.168248,y = 172.041494,z = 398.837900
+acos angle between sink and source is 61.854519
+angle 0 is 61.854519
+uw_sink:source(1) send packet 21 at 205.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.20 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 82
+SK 0: Num_Recv 21, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 82
+x = 259.546776,y = 169.241316,z = 398.837900
+acos angle between sink and source is 57.692767
+angle 1 is 57.692767
+uw_sink:source(2) send packet 21 at 207.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 83
+x = 258.469736,y = 167.381339,z = 398.837900
+acos angle between sink and source is 51.556768
+angle 2 is 51.556768
+uw_sink:source(3) send packet 21 at 209.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 84
+x = 257.397917,y = 165.530377,z = 398.837900
+acos angle between sink and source is 34.789615
+angle 3 is 34.789615
+uw_sink:source(0) send packet 22 at 212.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 85
+x = 255.728925,y = 162.648138,z = 398.837900
+acos angle between sink and source is 62.066535
+angle 0 is 62.066535
+uw_sink:source(1) send packet 22 at 215.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 86
+x = 254.110735,y = 159.853629,z = 398.837900
+acos angle between sink and source is 56.362999
+angle 1 is 56.362999
+UWSink (id:0): I get the packet data no.21 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 86
+SK 0: Num_Recv 22, InterArrival 10.000000
+uw_sink:source(2) send packet 22 at 217.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 87
+x = 253.027868,y = 157.983587,z = 398.837900
+acos angle between sink and source is 53.611839
+angle 2 is 53.611839
+uw_sink:source(3) send packet 22 at 219.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 88
+x = 251.960130,y = 156.139673,z = 398.837900
+acos angle between sink and source is 33.175258
+angle 3 is 33.175258
+uw_sink:source(0) send packet 23 at 222.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 89
+x = 250.289423,y = 153.254472,z = 398.837900
+acos angle between sink and source is 62.336657
+angle 0 is 62.336657
+uw_sink:source(1) send packet 23 at 225.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 90
+x = 248.674572,y = 150.465729,z = 398.837900
+acos angle between sink and source is 54.978830
+angle 1 is 54.978830
+UWSink (id:0): I get the packet data no.22 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 90
+SK 0: Num_Recv 23, InterArrival 10.000000
+uw_sink:source(2) send packet 23 at 227.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 91
+x = 247.585918,y = 148.585695,z = 398.837900
+acos angle between sink and source is 55.485070
+angle 2 is 55.485070
+uw_sink:source(3) send packet 23 at 229.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 92
+x = 246.522015,y = 146.748404,z = 398.837900
+acos angle between sink and source is 32.053065
+angle 3 is 32.053065
+uw_sink:source(0) send packet 24 at 232.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 93
+x = 244.849747,y = 143.860505,z = 398.837900
+acos angle between sink and source is 62.659650
+angle 0 is 62.659650
+uw_sink:source(1) send packet 24 at 235.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 94
+x = 243.238272,y = 141.077593,z = 398.837900
+acos angle between sink and source is 53.549360
+angle 1 is 53.549360
+UWSink (id:0): I get the packet data no.23 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 94
+SK 0: Num_Recv 24, InterArrival 10.000000
+uw_sink:source(2) send packet 24 at 237.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 95
+x = 242.143898,y = 139.187682,z = 398.837900
+acos angle between sink and source is 57.195755
+angle 2 is 57.195755
+uw_sink:source(3) send packet 24 at 239.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 96
+x = 241.083560,y = 137.356547,z = 398.837900
+acos angle between sink and source is 31.540703
+angle 3 is 31.540703
+uw_sink:source(0) send packet 25 at 242.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 97
+x = 239.268624,y = 136.967678,z = 398.837900
+acos angle between sink and source is 62.836811
+angle 0 is 62.836811
+uw_sink:source(1) send packet 25 at 245.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 98
+x = 237.150864,y = 138.502870,z = 398.837900
+acos angle between sink and source is 52.292172
+angle 1 is 52.292172
+UWSink (id:0): I get the packet data no.24 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 98
+SK 0: Num_Recv 25, InterArrival 10.000000
+uw_sink:source(2) send packet 25 at 247.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 99
+x = 235.706975,y = 139.549565,z = 398.837900
+acos angle between sink and source is 57.518561
+angle 2 is 57.518561
+uw_sink:source(3) send packet 25 at 249.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 100
+x = 234.310154,y = 140.562138,z = 398.837900
+acos angle between sink and source is 34.388574
+angle 3 is 34.388574
+uw_sink:source(0) send packet 26 at 252.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 101
+x = 232.113791,y = 142.154311,z = 398.837900
+acos angle between sink and source is 61.878942
+angle 0 is 61.878942
+uw_sink:source(1) send packet 26 at 255.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 102
+x = 229.994396,y = 143.690688,z = 398.837900
+acos angle between sink and source is 51.220735
+angle 1 is 51.220735
+UWSink (id:0): I get the packet data no.25 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 102
+SK 0: Num_Recv 26, InterArrival 10.000000
+uw_sink:source(2) send packet 26 at 257.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 103
+x = 228.549250,y = 144.738294,z = 398.837900
+acos angle between sink and source is 57.223571
+angle 2 is 57.223571
+uw_sink:source(3) send packet 26 at 259.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 104
+x = 227.148989,y = 145.753361,z = 398.837900
+acos angle between sink and source is 37.531899
+angle 3 is 37.531899
+uw_sink:source(0) send packet 27 at 262.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 105
+x = 224.958919,y = 147.340972,z = 398.837900
+acos angle between sink and source is 60.858746
+angle 0 is 60.858746
+uw_sink:source(1) send packet 27 at 265.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 106
+x = 222.837757,y = 148.878630,z = 398.837900
+acos angle between sink and source is 50.176796
+angle 1 is 50.176796
+UWSink (id:0): I get the packet data no.26 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 106
+SK 0: Num_Recv 27, InterArrival 10.000000
+uw_sink:source(2) send packet 27 at 267.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 107
+x = 221.391343,y = 149.927155,z = 398.837900
+acos angle between sink and source is 56.991887
+angle 2 is 56.991887
+uw_sink:source(3) send packet 27 at 269.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 108
+x = 219.987660,y = 150.944703,z = 398.837900
+acos angle between sink and source is 40.408121
+angle 3 is 40.408121
+uw_sink:source(0) send packet 28 at 272.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 109
+x = 217.804003,y = 152.527665,z = 398.837900
+acos angle between sink and source is 59.770938
+angle 0 is 59.770938
+uw_sink:source(1) send packet 28 at 275.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 110
+x = 215.680935,y = 154.066706,z = 398.837900
+acos angle between sink and source is 49.178505
+angle 1 is 49.178505
+UWSink (id:0): I get the packet data no.27 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 110
+SK 0: Num_Recv 28, InterArrival 10.000000
+uw_sink:source(2) send packet 28 at 277.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 111
+x = 214.233250,y = 155.116151,z = 398.837900
+acos angle between sink and source is 56.827892
+angle 2 is 56.827892
+uw_sink:source(3) send packet 28 at 279.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 112
+x = 212.826187,y = 156.136150,z = 398.837900
+acos angle between sink and source is 43.041549
+angle 3 is 43.041549
+uw_sink:source(0) send packet 29 at 282.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 113
+x = 210.649039,y = 157.714393,z = 398.837900
+acos angle between sink and source is 58.609810
+angle 0 is 58.609810
+uw_sink:source(1) send packet 29 at 285.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 114
+x = 208.523916,y = 159.254923,z = 398.837900
+acos angle between sink and source is 48.246368
+angle 1 is 48.246368
+UWSink (id:0): I get the packet data no.28 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 114
+SK 0: Num_Recv 29, InterArrival 10.000000
+uw_sink:source(2) send packet 29 at 287.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 115
+x = 207.074968,y = 160.305284,z = 398.837900
+acos angle between sink and source is 56.734800
+angle 2 is 56.734800
+uw_sink:source(3) send packet 29 at 289.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 116
+x = 205.664588,y = 161.327687,z = 398.837900
+acos angle between sink and source is 45.454695
+angle 3 is 45.454695
+uw_sink:source(0) send packet 30 at 292.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+stop here!I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 117
+x = 203.494021,y = 162.901160,z = 398.837900
+acos angle between sink and source is 57.369239
+angle 0 is 57.369239
+uw_sink:source(1) send packet 30 at 295.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+stop here!I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 118
+x = 201.366690,y = 164.443290,z = 398.837900
+acos angle between sink and source is 47.402627
+angle 1 is 47.402627
+UWSink (id:0): I get the packet data no.29 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 118
+SK 0: Num_Recv 30, InterArrival 10.000000
+uw_sink:source(2) send packet 30 at 297.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+stop here!I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 119
+x = 199.916497,y = 165.494555,z = 398.837900
+acos angle between sink and source is 56.714470
+angle 2 is 56.714470
+uw_sink:source(3) send packet 30 at 299.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+stop here!I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 120
+x = 198.502878,y = 166.519306,z = 398.837900
+acos angle between sink and source is 47.668420
+angle 3 is 47.668420
+uw_sink:source(0) send packet 31 at 302.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 121
+x = 196.338943,y = 168.087971,z = 398.837900
+acos angle between sink and source is 56.042727
+angle 0 is 56.042727
+uw_sink:source(1) send packet 31 at 305.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 122
+x = 194.209246,y = 169.631816,z = 398.837900
+acos angle between sink and source is 46.670265
+angle 1 is 46.670265
+UWSink (id:0): I get the packet data no.30 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 122
+SK 0: Num_Recv 31, InterArrival 10.000000
+uw_sink:source(2) send packet 31 at 307.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 123
+x = 192.757834,y = 170.683964,z = 398.837900
+acos angle between sink and source is 56.767316
+angle 2 is 56.767316
+uw_sink:source(3) send packet 31 at 309.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 124
+x = 191.341070,y = 171.710995,z = 398.837900
+acos angle between sink and source is 49.701931
+angle 3 is 49.701931
+uw_sink:source(0) send packet 32 at 312.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 125
+x = 189.183797,y = 173.274830,z = 398.837900
+acos angle between sink and source is 54.623475
+angle 0 is 54.623475
+uw_sink:source(1) send packet 32 at 315.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 126
+x = 187.051574,y = 174.820507,z = 398.837900
+acos angle between sink and source is 46.071637
+angle 1 is 46.071637
+UWSink (id:0): I get the packet data no.31 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 126
+SK 0: Num_Recv 32, InterArrival 10.000000
+uw_sink:source(2) send packet 32 at 317.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 127
+x = 185.598983,y = 175.873510,z = 398.837900
+acos angle between sink and source is 56.892271
+angle 2 is 56.892271
+uw_sink:source(3) send packet 32 at 319.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 128
+x = 184.179177,y = 176.902746,z = 398.837900
+acos angle between sink and source is 51.572774
+angle 3 is 51.572774
+uw_sink:source(0) send packet 33 at 322.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 129
+x = 182.028577,y = 178.461744,z = 398.837900
+acos angle between sink and source is 53.104519
+angle 0 is 53.104519
+uw_sink:source(1) send packet 33 at 325.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 130
+x = 179.893665,y = 180.009370,z = 398.837900
+acos angle between sink and source is 45.626803
+angle 1 is 45.626803
+UWSink (id:0): I get the packet data no.32 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 130
+SK 0: Num_Recv 33, InterArrival 10.000000
+uw_sink:source(2) send packet 33 at 327.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 131
+x = 178.439943,y = 181.063192,z = 398.837900
+acos angle between sink and source is 57.086856
+angle 2 is 57.086856
+uw_sink:source(3) send packet 33 at 329.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 132
+x = 177.017208,y = 182.094551,z = 398.837900
+acos angle between sink and source is 53.296866
+angle 3 is 53.296866
+uw_sink:source(0) send packet 34 at 332.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 133
+x = 174.873272,y = 183.648719,z = 398.837900
+acos angle between sink and source is 51.478949
+angle 0 is 51.478949
+uw_sink:source(1) send packet 34 at 335.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 134
+x = 172.735514,y = 185.198408,z = 398.837900
+acos angle between sink and source is 45.351784
+angle 1 is 45.351784
+UWSink (id:0): I get the packet data no.33 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 134
+SK 0: Num_Recv 34, InterArrival 10.000000
+uw_sink:source(2) send packet 34 at 337.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 135
+x = 171.280719,y = 186.253008,z = 398.837900
+acos angle between sink and source is 57.347313
+angle 2 is 57.347313
+uw_sink:source(3) send packet 34 at 339.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 136
+x = 169.855172,y = 187.286406,z = 398.837900
+acos angle between sink and source is 54.888562
+angle 3 is 54.888562
+uw_sink:source(0) send packet 35 at 342.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 137
+x = 167.717873,y = 188.835762,z = 398.837900
+acos angle between sink and source is 49.740254
+angle 0 is 49.740254
+uw_sink:source(1) send packet 35 at 345.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 138
+x = 165.577117,y = 190.387625,z = 398.837900
+acos angle between sink and source is 45.256981
+angle 1 is 45.256981
+UWSink (id:0): I get the packet data no.34 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 138
+SK 0: Num_Recv 35, InterArrival 10.000000
+uw_sink:source(2) send packet 35 at 347.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 139
+x = 164.121315,y = 191.442955,z = 398.837900
+acos angle between sink and source is 57.668803
+angle 2 is 57.668803
+uw_sink:source(3) send packet 35 at 349.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 140
+x = 162.693077,y = 192.478303,z = 398.837900
+acos angle between sink and source is 56.360755
+angle 3 is 56.360755
+uw_sink:source(0) send packet 36 at 352.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 141
+x = 160.562368,y = 194.022882,z = 398.837900
+acos angle between sink and source is 47.882840
+angle 0 is 47.882840
+uw_sink:source(1) send packet 36 at 355.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 142
+x = 158.418472,y = 195.577020,z = 398.837900
+acos angle between sink and source is 45.346070
+angle 1 is 45.346070
+UWSink (id:0): I get the packet data no.35 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 142
+SK 0: Num_Recv 36, InterArrival 10.000000
+uw_sink:source(2) send packet 36 at 357.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 143
+x = 156.961735,y = 196.633029,z = 398.837900
+acos angle between sink and source is 58.045645
+angle 2 is 58.045645
+uw_sink:source(3) send packet 36 at 359.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 144
+x = 155.530930,y = 197.670238,z = 398.837900
+acos angle between sink and source is 57.724984
+angle 3 is 57.724984
+uw_sink:source(0) send packet 37 at 362.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 145
+x = 153.406743,y = 199.210089,z = 398.837900
+acos angle between sink and source is 45.902791
+angle 0 is 45.902791
+uw_sink:source(1) send packet 37 at 365.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 146
+x = 151.259582,y = 200.766595,z = 398.837900
+acos angle between sink and source is 45.615595
+angle 1 is 45.615595
+UWSink (id:0): I get the packet data no.36 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 146
+SK 0: Num_Recv 37, InterArrival 10.000000
+uw_sink:source(2) send packet 37 at 367.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 147
+x = 149.801985,y = 201.823226,z = 398.837900
+acos angle between sink and source is 58.471579
+angle 2 is 58.471579
+uw_sink:source(3) send packet 37 at 369.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 148
+x = 148.368735,y = 202.862207,z = 398.837900
+acos angle between sink and source is 58.991562
+angle 3 is 58.991562
+uw_sink:source(0) send packet 38 at 372.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 149
+x = 146.250984,y = 204.397393,z = 398.837900
+acos angle between sink and source is 43.798975
+angle 0 is 43.798975
+uw_sink:source(1) send packet 38 at 375.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 150
+x = 144.100449,y = 205.956345,z = 398.837900
+acos angle between sink and source is 46.055352
+angle 1 is 46.055352
+UWSink (id:0): I get the packet data no.37 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 150
+SK 0: Num_Recv 38, InterArrival 10.000000
+uw_sink:source(2) send packet 38 at 377.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 151
+x = 142.642071,y = 207.013542,z = 398.837900
+acos angle between sink and source is 58.940022
+angle 2 is 58.940022
+uw_sink:source(3) send packet 38 at 379.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 152
+x = 141.206499,y = 208.054207,z = 398.837900
+acos angle between sink and source is 60.169691
+angle 3 is 60.169691
+uw_sink:source(0) send packet 39 at 382.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 153
+x = 139.095074,y = 209.584807,z = 398.837900
+acos angle between sink and source is 41.574611
+angle 0 is 41.574611
+uw_sink:source(1) send packet 39 at 385.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 154
+x = 136.941079,y = 211.146266,z = 398.837900
+acos angle between sink and source is 46.649473
+angle 1 is 46.649473
+UWSink (id:0): I get the packet data no.38 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 154
+SK 0: Num_Recv 39, InterArrival 10.000000
+uw_sink:source(2) send packet 39 at 387.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 155
+x = 135.482000,y = 212.203972,z = 398.837900
+acos angle between sink and source is 59.444308
+angle 2 is 59.444308
+uw_sink:source(3) send packet 39 at 389.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 156
+x = 134.044225,y = 213.246234,z = 398.837900
+acos angle between sink and source is 61.267581
+angle 3 is 61.267581
+uw_sink:source(0) send packet 40 at 392.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 157
+x = 131.938995,y = 214.772343,z = 398.837900
+acos angle between sink and source is 39.239459
+angle 0 is 39.239459
+uw_sink:source(1) send packet 40 at 395.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 158
+x = 129.781481,y = 216.336353,z = 398.837900
+acos angle between sink and source is 47.377995
+angle 1 is 47.377995
+UWSink (id:0): I get the packet data no.39 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 158
+SK 0: Num_Recv 40, InterArrival 10.000000
+uw_sink:source(2) send packet 40 at 397.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 159
+x = 128.321780,y = 217.394510,z = 398.837900
+acos angle between sink and source is 59.977895
+angle 2 is 59.977895
+uw_sink:source(3) send packet 40 at 399.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 160
+x = 126.881917,y = 218.438285,z = 398.837900
+acos angle between sink and source is 62.292556
+angle 3 is 62.292556
+uw_sink:source(0) send packet 41 at 402.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 161
+x = 124.782728,y = 219.960016,z = 398.837900
+acos angle between sink and source is 36.812823
+angle 0 is 36.812823
+uw_sink:source(1) send packet 41 at 405.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 162
+x = 122.621664,y = 221.526599,z = 398.837900
+acos angle between sink and source is 48.218612
+angle 1 is 48.218612
+UWSink (id:0): I get the packet data no.40 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 162
+SK 0: Num_Recv 41, InterArrival 10.000000
+uw_sink:source(2) send packet 41 at 407.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 163
+x = 121.161417,y = 222.585152,z = 398.837900
+acos angle between sink and source is 60.534533
+angle 2 is 60.534533
+uw_sink:source(3) send packet 41 at 409.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 164
+x = 119.719579,y = 223.630359,z = 398.837900
+acos angle between sink and source is 63.251156
+angle 3 is 63.251156
+uw_sink:source(0) send packet 42 at 412.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 165
+x = 117.626250,y = 225.147841,z = 398.837900
+acos angle between sink and source is 34.327570
+angle 0 is 34.327570
+uw_sink:source(1) send packet 42 at 415.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 166
+x = 115.461640,y = 226.716996,z = 398.837900
+acos angle between sink and source is 49.148337
+angle 1 is 49.148337
+UWSink (id:0): I get the packet data no.41 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 166
+SK 0: Num_Recv 42, InterArrival 10.000000
+uw_sink:source(2) send packet 42 at 417.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 167
+x = 114.000918,y = 227.775892,z = 398.837900
+acos angle between sink and source is 61.108388
+angle 2 is 61.108388
+uw_sink:source(3) send packet 42 at 419.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 168
+x = 112.557214,y = 228.822452,z = 398.837900
+acos angle between sink and source is 64.149222
+angle 3 is 64.149222
+uw_sink:source(0) send packet 43 at 422.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 169
+x = 110.469541,y = 230.335834,z = 398.837900
+acos angle between sink and source is 31.835267
+angle 0 is 31.835267
+uw_sink:source(1) send packet 43 at 425.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 170
+x = 108.301419,y = 231.907534,z = 398.837900
+acos angle between sink and source is 50.144886
+angle 1 is 50.144886
+UWSink (id:0): I get the packet data no.42 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 170
+SK 0: Num_Recv 43, InterArrival 10.000000
+uw_sink:source(2) send packet 43 at 427.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 171
+x = 106.840292,y = 232.966724,z = 398.837900
+acos angle between sink and source is 61.694131
+angle 2 is 61.694131
+uw_sink:source(3) send packet 43 at 429.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 172
+x = 105.394824,y = 234.014563,z = 398.837900
+acos angle between sink and source is 64.991982
+angle 3 is 64.991982
+uw_sink:source(0) send packet 44 at 432.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 173
+x = 103.312577,y = 235.524011,z = 398.837900
+acos angle between sink and source is 29.412240
+angle 0 is 29.412240
+uw_sink:source(1) send packet 44 at 435.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 174
+x = 101.141014,y = 237.098206,z = 398.837900
+acos angle between sink and source is 51.187689
+angle 1 is 51.187689
+UWSink (id:0): I get the packet data no.43 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 174
+SK 0: Num_Recv 44, InterArrival 10.000000
+uw_sink:source(2) send packet 44 at 437.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 175
+x = 99.679545,y = 238.157644,z = 398.837900
+acos angle between sink and source is 62.286980
+angle 2 is 62.286980
+uw_sink:source(3) send packet 44 at 439.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 176
+x = 98.232411,y = 239.206691,z = 398.837900
+acos angle between sink and source is 65.784117
+angle 3 is 65.784117
+uw_sink:source(0) send packet 45 at 442.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 177
+x = 96.155339,y = 240.712388,z = 398.837900
+acos angle between sink and source is 27.165357
+angle 0 is 27.165357
+uw_sink:source(1) send packet 45 at 445.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 178
+x = 93.980438,y = 242.289002,z = 398.837900
+acos angle between sink and source is 52.258517
+angle 1 is 52.258517
+UWSink (id:0): I get the packet data no.44 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 178
+SK 0: Num_Recv 45, InterArrival 10.000000
+uw_sink:source(2) send packet 45 at 447.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 179
+x = 92.518685,y = 243.348646,z = 398.837900
+acos angle between sink and source is 62.882726
+angle 2 is 62.882726
+uw_sink:source(3) send packet 45 at 449.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 180
+x = 91.069977,y = 244.398834,z = 398.837900
+acos angle between sink and source is 66.529829
+angle 3 is 66.529829
+uw_sink:source(0) send packet 46 at 452.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 181
+x = 88.997806,y = 245.900978,z = 398.837900
+acos angle between sink and source is 25.234100
+angle 0 is 25.234100
+uw_sink:source(1) send packet 46 at 455.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 182
+x = 86.819703,y = 247.479914,z = 398.837900
+acos angle between sink and source is 53.341769
+angle 1 is 53.341769
+UWSink (id:0): I get the packet data no.45 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 182
+SK 0: Num_Recv 46, InterArrival 10.000000
+uw_sink:source(2) send packet 46 at 457.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 183
+x = 85.357718,y = 248.539726,z = 398.837900
+acos angle between sink and source is 63.477723
+angle 2 is 63.477723
+uw_sink:source(3) send packet 46 at 459.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 184
+x = 83.907525,y = 249.590990,z = 398.837900
+acos angle between sink and source is 67.232891
+angle 3 is 67.232891
+uw_sink:source(0) send packet 47 at 462.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 185
+x = 81.839963,y = 251.089793,z = 398.837900
+acos angle between sink and source is 23.781840
+angle 0 is 23.781840
+uw_sink:source(1) send packet 47 at 465.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 186
+x = 79.658821,y = 252.670932,z = 398.837900
+acos angle between sink and source is 54.424516
+angle 1 is 54.424516
+UWSink (id:0): I get the packet data no.46 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 186
+SK 0: Num_Recv 47, InterArrival 10.000000
+uw_sink:source(2) send packet 47 at 467.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 187
+x = 78.196651,y = 253.730878,z = 398.837900
+acos angle between sink and source is 64.068862
+angle 2 is 64.068862
+uw_sink:source(3) send packet 47 at 469.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 188
+x = 76.745055,y = 254.783159,z = 398.837900
+acos angle between sink and source is 67.896702
+angle 3 is 67.896702
+uw_sink:source(0) send packet 48 at 472.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 189
+x = 74.681797,y = 256.278842,z = 398.837900
+acos angle between sink and source is 22.967345
+angle 0 is 22.967345
+uw_sink:source(1) send packet 48 at 475.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 190
+x = 72.497803,y = 257.862048,z = 398.837900
+acos angle between sink and source is 55.496359
+angle 1 is 55.496359
+UWSink (id:0): I get the packet data no.47 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 190
+SK 0: Num_Recv 48, InterArrival 10.000000
+uw_sink:source(2) send packet 48 at 477.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 191
+x = 71.035490,y = 258.922098,z = 398.837900
+acos angle between sink and source is 64.653542
+angle 2 is 64.653542
+uw_sink:source(3) send packet 48 at 479.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 192
+x = 69.582570,y = 259.975339,z = 398.837900
+acos angle between sink and source is 68.524324
+angle 3 is 68.524324
+uw_sink:source(0) send packet 49 at 482.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 193
+x = 67.523303,y = 261.468129,z = 398.837900
+acos angle between sink and source is 22.896759
+angle 0 is 22.896759
+uw_sink:source(1) send packet 49 at 485.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 194
+x = 65.336661,y = 263.053255,z = 398.837900
+acos angle between sink and source is 56.549185
+angle 1 is 56.549185
+UWSink (id:0): I get the packet data no.48 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 194
+SK 0: Num_Recv 49, InterArrival 10.000000
+uw_sink:source(2) send packet 49 at 487.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 195
+x = 63.874241,y = 264.113382,z = 398.837900
+acos angle between sink and source is 65.229621
+angle 2 is 65.229621
+uw_sink:source(3) send packet 49 at 489.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 196
+x = 62.420070,y = 265.167530,z = 398.837900
+acos angle between sink and source is 69.118526
+angle 3 is 69.118526
+uw_sink:source(0) send packet 50 at 492.000000 : the coordinates of target is NS EXISTING...
+(0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 0 my No. is 4
+total_pkt_received = 197
+x = 60.364479,y = 266.657654,z = 398.837900
+acos angle between sink and source is 23.579942
+angle 0 is 23.579942
+uw_sink:source(1) send packet 50 at 495.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (100.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+UWSink (id:0): I get the packet data no.49 . Source is 1 Prehop is 1 
+pkt_saved = 0
+pkt_all = 198
+SK 0: Num_Recv 50, InterArrival 10.000000
+I receive packages form surface sinks!!! sink No. is 1 my No. is 4
+total_pkt_received = 198
+x = 58.175404,y = 268.244544,z = 398.837900
+acos angle between sink and source is 57.576871
+angle 1 is 57.576871
+uw_sink:source(2) send packet 50 at 497.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,300.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 2 my No. is 4
+total_pkt_received = 199
+x = 56.712911,y = 269.304725,z = 398.837900
+acos angle between sink and source is 65.795370
+angle 2 is 65.795370
+uw_sink:source(3) send packet 50 at 499.000000 : the coordinates of target is (0.000000,0.000000,0.000000) and range=800.000000 and my position (300.000000,100.000000,500.000000) and cx is(0.000000,0.000000,0.000000)  
+I receive packages form surface sinks!!! sink No. is 3 my No. is 4
+total_pkt_received = 200
+x = 55.257557,y = 270.359730,z = 398.837900
+acos angle between sink and source is 69.681810
+angle 3 is 69.681810
+pkt_saved = 0
+pkt_all = 200
+SINK 0 : terminates (send 50, recv 50, cum_delay 6.969167)
+SINK 1 : terminates (send 50, recv 0, cum_delay 0.000000)
+SINK 2 : terminates (send 50, recv 0, cum_delay 0.000000)
+SINK 3 : terminates (send 50, recv 0, cum_delay 0.000000)
+SINK 4 : terminates (send 0, recv 0, cum_delay 0.000000)
+god: the energy consumped is 27.820000
+god: the energy consumped is 27.820000

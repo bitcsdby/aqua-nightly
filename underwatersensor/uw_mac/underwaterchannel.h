@@ -36,9 +36,11 @@ private:
 	void updateNodesList(class MobileNode *mn, double oldX);
 	MobileNode **getAffectedNodes(MobileNode *mn, double radius, int *numAffectedNodes);
        
+	bool issink(int id);
 	
 protected:
-	static double distCST_;        
+	static double distCST_;
+	static double distCST_Sink;
 };
 
 #endif //_underwaterchannel_h_

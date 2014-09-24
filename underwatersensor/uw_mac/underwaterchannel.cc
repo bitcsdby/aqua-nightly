@@ -33,7 +33,8 @@ public:
 
 class MobileNode;
 
-double UnderwaterChannel::distCST_ = 1000.0;
+double UnderwaterChannel::distCST_ = 100.0;  // transmission range of ordinary underwater nodes
+double UnderwaterChannel::distCST_Sink = 1000.0;	// transmission range of sink on surface
 
 
 UnderwaterChannel::UnderwaterChannel(void) : Channel(), numNodes_(0), 
@@ -61,6 +62,15 @@ int UnderwaterChannel::command(int argc, const char*const* argv)
 	return Channel::command(argc, argv);
 }
 
+//added by dby
+//to discriminate a sink
+bool UnderwaterChannel::issink(int id)
+{
+	if (id < 4)
+		return true;
+
+	return false;
+}
 
 void
 UnderwaterChannel::sendUp(Packet* p, Phy *tifp)
@@ -85,7 +95,10 @@ UnderwaterChannel::sendUp(Packet* p, Phy *tifp)
 		 if(!sorted_){
 			 sortLists();
 		 }
-       affectedNodes = getAffectedNodes(mtnode, distCST_ , &numAffectedNodes); 
+		 if(issink(mtnode->nodeid()))
+			 affectedNodes = getAffectedNodes(mtnode, distCST_Sink , &numAffectedNodes);
+		 else
+			 affectedNodes = getAffectedNodes(mtnode, distCST_ , &numAffectedNodes);
       
 			 //  printf("underwaterchannel the affected number of node is %d\n",numAffectedNodes);
 		 for (i=0; i < numAffectedNodes; i++) {

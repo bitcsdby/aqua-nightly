@@ -13,6 +13,8 @@ extern "C" {
 #include <mac.h>
 #include <ll.h>
 #include <cmu-trace.h>
+#include <string.h>
+#include <stdlib.h>
 
 #include "dbr.h"
 
@@ -529,6 +531,10 @@ DBR_Agent::DBR_Agent() : Agent(PT_DBR),
 	// create packet cache
 	pc_ = new PktCache();
 	total_pkt_received = 0;
+
+	//memset();
+
+	memset(angle,0,sizeof(angle));
 }
 
 
@@ -879,7 +885,14 @@ void DBR_Agent::recv(Packet *p, Handler *)
 		iph->ttl_ = 128;
 
 		// setup DBR header
-		dbrh->mode() = DBRH_DATA_GREEDY;
+
+		if(src < SINK_NUM)
+		{
+			dbrh->mode() = SINK_BROCAST;
+		}
+		else
+			dbrh->mode() = DBRH_DATA_GREEDY;
+
 		dbrh->packetID() = pkt_cnt_++;
 		//printf("++++++++++++++++++++++++My ID is %d\n",pkt_cnt_);
 		dbrh->depth() = z;		// save the depth info
@@ -934,11 +947,17 @@ void DBR_Agent::recv(Packet *p, Handler *)
 
 	//dby add ,here we assumption there are 4 sinks on the surface
 	//src < 4 indicates that packet is brocasted by one of the sinks
-	if(src < 4 && mn_->address() > 3)
+	//if(src < 4 && mn_->address() > 3)
+	if (dbrh->mode() == SINK_BROCAST && mn_->address() >= SINK_NUM)
 	{
 		total_pkt_received++;
-		printf("I receive packages form surface sinks!!! sink No. is %d my No. is %d\n",src,mn_->address());
+		printf("I receive packages form surface sinks!!! sink No. is %d my No. is %d\n", src, mn_->address());
 		printf("total_pkt_received = %d\n",total_pkt_received);
+		angle[src] = calsinkpos(p);
+
+		//for(int i = 0;i < SINK_NUM;i++)
+		printf("angle %d is %lf\n",src,angle[src]);
+
 		return ;
 	}
 
@@ -1192,6 +1211,47 @@ void DBR_Agent::handlePktForward(Packet *p)
 		}
 	}
 }
+
+double DBR_Agent::calsinkpos(Packet *p)
+{
+	hdr_ip *iph = hdr_ip::access(p);
+	hdr_cmn *cmh = hdr_cmn::access(p);
+	hdr_dbr *dbrh = hdr_dbr::access(p);
+
+	double delta;
+	double delay = .0;
+
+	double euclid_dis = .0;
+	double toa_dis = .0;
+	double angle = .0;
+	double l_dis = 0;
+
+	double x, y, z;
+
+	mn_->getLoc(&x, &y, &z);
+
+	delta = dbrh->depth() - z;
+
+	//euclid_dis = sqrt(pow(x-dbrh->x,2)+pow(y-dbrh->y,2)+pow(z-dbrh->z,2));
+
+
+
+	toa_dis = 1350.0 * (cmh->ts_arr_ - cmh->ts_);
+
+	if(toa_dis < 50)
+		toa_dis = toa_dis / (0.0001*toa_dis*toa_dis-0.0212*toa_dis+1.839);
+
+	if(delta / toa_dis < 1)
+		angle = acos(delta / toa_dis) * 180.0 / 3.14159265;
+
+	//l_dis = pow(toa_dis,2) - pow(delta,2) + pow(100-delta,2);
+	printf("x = %lf,y = %lf,z = %lf\n",x,y,z);
+	printf("acos angle between sink and source is %lf\n",angle);
+
+	return angle;
+
+}
+
 #endif	// end of USE_FLOODING_ALG
 #else
 void DBR_Agent::recv(Packet *p, Handler *)

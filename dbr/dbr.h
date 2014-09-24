@@ -138,6 +138,13 @@ private:
 #define	DBRH_DATA_GREEDY	0
 #define	DBRH_DATA_RECOVER	1
 #define	DBRH_BEACON		2
+#define SINK_BROCAST  3
+
+
+#define SINK_NUM  4
+
+
+
 
 class hdr_dbr {
 public:
@@ -211,6 +218,8 @@ public:
 	
 	bool IsDeviation();
 
+	double calsinkpos(Packet* p);
+
 	//DBR_BeaconHandler bhdl;
 
 	static int pkt_saved ;
@@ -244,6 +253,8 @@ protected:
 	PktCache *pc_;				// packet cache for broadcasting;
 	MyPacketQueue pq_;			// packet queue
 	int pkt_cnt_;				// counter for packets have been sent
+
+	double angle[SINK_NUM];
 
 	inline void send_to_dmux(Packet *p, Handler *h) {
 		dmux->recv(p, h);
