@@ -26,6 +26,13 @@
 #define	DBR_BEACON_INT		10		// interval between beacons
 #define	JITTER			1		// jitter for broadcasting
 
+
+#define PURE_DBR	0
+#define EE_DBR		1
+#define DIR_DBR		2
+#define CENTRA_DBR 	3
+
+
 class DBR_Agent;
 class MyPacketQueue;
 class NeighbEnt;
@@ -227,6 +234,8 @@ public:
 
 	int total_pkt_received;
 
+	int dbr_type;
+
 protected:
 	Trace *traceagent;	// Trace agent 
 	PortClassifier *dmux;
@@ -267,8 +276,15 @@ protected:
 	void sendBeacon(void);
 	void beaconIn(Packet *);
 
-	void handlePktForward(Packet *p);
-	
+	//void handlePktForward(Packet *p);
+	//pure
+	void handlePktForward_pure(Packet *p);
+	//dir-dbr
+	void handlePktForward_dir(Packet *p);
+	//ee-dbr
+	void handlePktForward_ee(Packet *p);
+
+
 };
 
 #endif	/* _DBR_H_ */

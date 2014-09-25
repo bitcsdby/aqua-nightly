@@ -535,6 +535,11 @@ DBR_Agent::DBR_Agent() : Agent(PT_DBR),
 	//memset();
 
 	memset(angle,0,sizeof(angle));
+
+	dbr_type = PURE_DBR;
+
+	bind("dbr_type",&dbr_type);
+
 }
 
 
@@ -948,23 +953,28 @@ void DBR_Agent::recv(Packet *p, Handler *)
 	//dby add ,here we assumption there are 4 sinks on the surface
 	//src < 4 indicates that packet is brocasted by one of the sinks
 	//if(src < 4 && mn_->address() > 3)
-	if (dbrh->mode() == SINK_BROCAST && mn_->address() >= SINK_NUM)
-	{
-		total_pkt_received++;
-		printf("I receive packages form surface sinks!!! sink No. is %d my No. is %d\n", src, mn_->address());
-		printf("total_pkt_received = %d\n",total_pkt_received);
-		angle[src] = calsinkpos(p);
-
-		//for(int i = 0;i < SINK_NUM;i++)
-		printf("angle %d is %lf\n",src,angle[src]);
-
-		return ;
-	}
-
 
 	// packet I'm forwarding
 
-	handlePktForward(p);
+	if(dbr_type == PURE_DBR)
+		handlePktForward_pure(p);
+	else if(dbr_type == DIR_DBR)
+	{
+		if (dbrh->mode() == SINK_BROCAST && mn_->address() >= SINK_NUM)
+		{
+			total_pkt_received++;
+			printf("I receive packages form surface sinks!!! sink No. is %d my No. is %d\n", src, mn_->address());
+			printf("total_pkt_received = %d\n",total_pkt_received);
+			angle[src] = calsinkpos(p);
+
+			//for(int i = 0;i < SINK_NUM;i++)
+			printf("angle %d is %lf\n",src,angle[src]);
+		}
+		handlePktForward_dir(p);
+	}
+	else if (dbr_type == EE_DBR)
+		handlePktForward_ee(p);
+
 }
 
 //bool UWSinkAgent::IsDeviation(){
@@ -1016,7 +1026,7 @@ void DBR_Agent::handlePktForward(Packet *p)
 // There are two modes right now: GREEDY and RECOVERY
 // The node will broadcast all RECOVERY pakets, but
 // it will drop the GREEDY pakets from upper level.
-void DBR_Agent::handlePktForward(Packet *p)
+void DBR_Agent::handlePktForward_dir(Packet *p)
 {
 	hdr_ip *iph = hdr_ip::access(p);
 	hdr_cmn *cmh = hdr_cmn::access(p);
@@ -1192,6 +1202,354 @@ void DBR_Agent::handlePktForward(Packet *p)
 
 	if (pq_.empty())
 	{ 
+		pq_.insert(q);
+		latest_ = expected_send_time;
+		send_timer_->resched(delay);
+	}
+	else
+	{
+		if (pq_.update(p, expected_send_time))
+		{
+			pq_.insert(q);
+
+			// update the sending timer
+			if (expected_send_time < latest_)
+			{
+				latest_ = expected_send_time;
+				send_timer_->resched(delay);
+			}
+		}
+	}
+}
+
+//pure dbr algorithm
+// Forward the packet according to its mode
+// There are two modes right now: GREEDY and RECOVERY
+// The node will broadcast all RECOVERY pakets, but
+// it will drop the GREEDY pakets from upper level.
+void DBR_Agent::handlePktForward_pure(Packet *p)
+{
+	hdr_ip *iph = hdr_ip::access(p);
+	hdr_cmn *cmh = hdr_cmn::access(p);
+	hdr_dbr *dbrh = hdr_dbr::access(p);
+
+	double delta;
+	double delay = .0;
+
+	double x, y, z;
+
+	if (--iph->ttl_ == 0)
+	{
+		drop(p, DROP_RTR_TTL);
+		return;
+	}
+
+	/*
+	// dump the queue
+	fprintf(stderr, "-------- Node id: %d --------\n", mn_->address());
+	fprintf(stderr, " curID: %d\n", dbrh->packetID());
+	pq_.dump();
+	*/
+
+#if 0
+	// search sending queue for p
+	if (pq_.purge(p))
+	{
+		drop(p, DROP_RTR_TTL);
+		return;
+	}
+#endif
+
+	// common settings for forwarding
+	cmh->num_forwards()++;
+	cmh->direction() = hdr_cmn::DOWN;
+	cmh->addr_type_ = AF_INET;
+	cmh->ptype_ = PT_DBR;
+	cmh->size() = dbrh->size() + IP_HDR_LEN;
+	cmh->next_hop() = IP_BROADCAST;
+
+	switch (dbrh->mode())
+	{
+	case DBRH_DATA_GREEDY:
+		mn_->getLoc(&x, &y, &z);
+
+		// compare the depth
+		delta = z - dbrh->depth();
+
+		// only forward the packet from lower level
+		if (delta < DBR_DEPTH_THRESHOLD)
+		{
+			pq_.purge(p);
+			drop(p, DROP_RTR_TTL);
+			return;
+		}
+
+		#ifdef DEBUG_NONE
+		fprintf(stderr, "[%d]: z = %.3f, depth = %.3f, delta = %.3f\n",
+			mn_->address(), z, dbrh->depth(), delta);
+		#endif
+
+		// update current depth
+		dbrh->depth() = z;
+
+		// compute the delay
+		//delay = DBR_DEPTH_THRESHOLD / delta * DBR_SCALE;
+		delta = 1.0 - delta / DBR_MAX_RANGE;
+		delay = DBR_MIN_BACKOFF + 4.0 * delta * DBR_MAX_DELAY;
+
+		// set time out for the packet
+
+		break;
+	case DBRH_DATA_RECOVER:
+		if (dbrh->nhops() <= 0)
+		{
+			#ifdef	DEBUG_PRINT
+			fprintf(stderr, "[%d] drops pkt! (nhops < 0)\n", mn_->address());
+			#endif
+
+			drop(p, DROP_RTR_TTL);
+			return;
+		}
+		dbrh->nhops()--;
+		break;
+	default:
+		fprintf(stderr, "Unknown data type!]n");
+		return;
+	}
+
+	// make up the DBR header
+	dbrh->owner() = dbrh->prev_hop();
+	dbrh->prev_hop() = mn_->address();
+
+	#ifdef DEBUG_NONE
+	fprintf(stderr, "[%d]: delay %f before broacasting!\n",
+			mn_->address(), delay);
+	#endif
+
+	if (pc_ == NULL) {
+		fprintf(stderr, "packet cache pointer is null!\n");
+		exit(-1);
+	}
+
+	// Is this pkt recieved before?
+	// each node only broadcasts the same pkt once
+	if (pc_->accessPacket(dbrh->packetID()))
+	{
+		drop(p, DROP_RTR_TTL);
+		return;
+	}
+	//else
+	//	pc_->addPacket(dbrh->packetID());
+
+	// put the packet into sending queue
+	double expected_send_time = NOW + delay;
+	QueueItem *q = new QueueItem(p, expected_send_time);
+
+	/*
+	pq_.insert(q);
+	QueueItem *qf;
+	qf = pq_.front();
+	send_timer_->resched(qf->send_time_ - NOW);
+	*/
+
+	if (pq_.empty())
+	{
+		pq_.insert(q);
+		latest_ = expected_send_time;
+		send_timer_->resched(delay);
+	}
+	else
+	{
+		if (pq_.update(p, expected_send_time))
+		{
+			pq_.insert(q);
+
+			// update the sending timer
+			if (expected_send_time < latest_)
+			{
+				latest_ = expected_send_time;
+				send_timer_->resched(delay);
+			}
+		}
+	}
+}
+
+
+//ee dbr alg
+void DBR_Agent::handlePktForward_ee(Packet *p)
+{
+	hdr_ip *iph = hdr_ip::access(p);
+	hdr_cmn *cmh = hdr_cmn::access(p);
+	hdr_dbr *dbrh = hdr_dbr::access(p);
+
+	double delta;
+	double delay = .0;
+
+	double euclid_dis = .0;
+	double toa_dis = .0;
+	double angle = .0;
+	double l_dis = 0;
+
+	double x, y, z;
+
+	if (--iph->ttl_ == 0)
+	{
+		drop(p, DROP_RTR_TTL);
+		return;
+	}
+
+	/*
+	// dump the queue
+	fprintf(stderr, "-------- Node id: %d --------\n", mn_->address());
+	fprintf(stderr, " curID: %d\n", dbrh->packetID());
+	pq_.dump();
+	*/
+
+#if 0
+	// search sending queue for p
+	if (pq_.purge(p))
+	{
+		drop(p, DROP_RTR_TTL);
+		return;
+	}
+#endif
+
+	// common settings for forwarding
+	cmh->num_forwards()++;
+	cmh->direction() = hdr_cmn::DOWN;
+	cmh->addr_type_ = AF_INET;
+	cmh->ptype_ = PT_DBR;
+	cmh->size() = dbrh->size() + IP_HDR_LEN;
+	cmh->next_hop() = IP_BROADCAST;
+
+	switch (dbrh->mode())
+	{
+	case DBRH_DATA_GREEDY:
+		mn_->getLoc(&x, &y, &z);
+
+		// compare the depth
+		delta = z - dbrh->depth();
+
+
+		//printf("euclid_dis = %lf,toa_dis = %lf\n",euclid_dis,toa_dis / (0.0001*toa_dis*toa_dis-0.0212*toa_dis+1.839));
+		// only forward the packet from lower level
+		if (delta < DBR_DEPTH_THRESHOLD)
+		{
+			pq_.purge(p);
+			drop(p, DROP_RTR_TTL);
+			return;
+		}
+
+		#ifdef DEBUG_NONE
+		fprintf(stderr, "[%d]: z = %.3f, depth = %.3f, delta = %.3f\n",
+			mn_->address(), z, dbrh->depth(), delta);
+		#endif
+
+		//distance between prehop and me
+		euclid_dis = sqrt(pow(x-dbrh->x,2)+pow(y-dbrh->y,2)+pow(z-dbrh->z,2));
+		//toa_dis = 340.0 * (NOW - dbrh->ts_prehop) ;
+		toa_dis = 1350.0 * (NOW - cmh->ts_);
+
+		//if(z != 0)
+		if(toa_dis < 50)
+			toa_dis = toa_dis / (0.0001*toa_dis*toa_dis-0.0212*toa_dis+1.839);
+
+		if(delta / toa_dis < 1)
+			angle = asin(delta / toa_dis) * 180.0 / 3.14159265;
+
+		l_dis = pow(toa_dis,2) - pow(delta,2) + pow(100-delta,2);
+
+		//printf("angle = %lf\n",angle);
+
+		if(l_dis > 10000)
+		{
+			pkt_saved++;
+			pq_.purge(p);
+			drop(p, DROP_RTR_TTL);
+			return;
+		}
+
+		//if(angle > 45.3 && angle < 45.4)
+		//	printf("here");
+
+
+		// update current depth
+		dbrh->depth() = z;
+		//dbrh->ts_prehop = NOW;
+		dbrh->ts_prehop = NOW;
+		dbrh->x = x;
+		dbrh->y = y;
+		dbrh->z = z;
+
+
+		// compute the delay
+		//delay = DBR_DEPTH_THRESHOLD / delta * DBR_SCALE;
+		delta = 1.0 - delta / DBR_MAX_RANGE;
+		delay = DBR_MIN_BACKOFF + 4.0 * delta * DBR_MAX_DELAY;
+
+
+		if(delay < 0)
+			printf("delay < 0");
+
+		// set time out for the packet
+
+		break;
+	case DBRH_DATA_RECOVER:
+		if (dbrh->nhops() <= 0)
+		{
+			#ifdef	DEBUG_PRINT
+			fprintf(stderr, "[%d] drops pkt! (nhops < 0)\n", mn_->address());
+			#endif
+
+			drop(p, DROP_RTR_TTL);
+			return;
+		}
+		dbrh->nhops()--;
+		break;
+	default:
+		fprintf(stderr, "Unknown data type!]n");
+		return;
+	}
+
+	// make up the DBR header
+	//dbrh->owner() = dbrh->prev_hop();
+	dbrh->prev_hop() = mn_->address();
+
+	#ifdef DEBUG_NONE
+	fprintf(stderr, "[%d]: delay %f before broacasting!\n",
+			mn_->address(), delay);
+	#endif
+
+	if (pc_ == NULL) {
+		fprintf(stderr, "packet cache pointer is null!\n");
+		exit(-1);
+	}
+
+	// Is this pkt recieved before?
+	// each node only broadcasts the same pkt once
+	if (pc_->accessPacket(dbrh->packetID()))
+	{
+		drop(p, DROP_RTR_TTL);
+		return;
+	}
+	//else
+	//	pc_->addPacket(dbrh->packetID());
+
+	// put the packet into sending queue
+	double expected_send_time = NOW + delay;
+	QueueItem *q = new QueueItem(p, expected_send_time);
+
+
+
+	/*
+	pq_.insert(q);
+	QueueItem *qf;
+	qf = pq_.front();
+	send_timer_->resched(qf->send_time_ - NOW);
+	*/
+
+	if (pq_.empty())
+	{
 		pq_.insert(q);
 		latest_ = expected_send_time;
 		send_timer_->resched(delay);
@@ -1532,6 +1890,18 @@ int DBR_Agent::command(int argc, const char * const *argv)
 				return TCL_ERROR;
 			}
 			ll = (NsObject*)obj;
+			return TCL_OK;
+		}
+
+		if (strcasecmp(argv[1], "set-dbr-type") == 0)
+		{
+			if ((obj = TclObject::lookup(argv[2])) == 0)
+			{
+				fprintf(stderr, "DBRAgent: %s lookup of %s failed\n",
+						argv[1], argv[2]);
+				return TCL_ERROR;
+			}
+			dbr_type = (int)TclObject::lookup(argv[2]);
 			return TCL_OK;
 		}
 

@@ -84,6 +84,10 @@ UnderwaterChannel::sendUp(Packet* p, Phy *tifp)
 	double propdelay = 0.0;
 	struct hdr_cmn *hdr = HDR_CMN(p);
 
+	double dist = 0.0;
+
+
+
 	 hdr->direction() = hdr_cmn::UP;
 	 //	 printf("underwaterchannel the direction is set %d real is%d\n",hdr_cmn::UP,hdr->direction());
                   // use list-based improvement
@@ -95,10 +99,13 @@ UnderwaterChannel::sendUp(Packet* p, Phy *tifp)
 		 if(!sorted_){
 			 sortLists();
 		 }
+
 		 if(issink(mtnode->nodeid()))
-			 affectedNodes = getAffectedNodes(mtnode, distCST_Sink , &numAffectedNodes);
-		 else
-			 affectedNodes = getAffectedNodes(mtnode, distCST_ , &numAffectedNodes);
+		 		dist = distCST_Sink;
+		 	else
+		 		dist = distCST_;
+		//affectedNodes = getAffectedNodes(mtnode, distCST_Sink , &numAffectedNodes);
+		affectedNodes = getAffectedNodes(mtnode, dist , &numAffectedNodes);
       
 			 //  printf("underwaterchannel the affected number of node is %d\n",numAffectedNodes);
 		 for (i=0; i < numAffectedNodes; i++) {
@@ -107,7 +114,7 @@ UnderwaterChannel::sendUp(Packet* p, Phy *tifp)
 
 		   double d1=distance(tnode,rnode);
 
-		    if((rnode == tnode)||(d1>distCST_))
+		    if((rnode == tnode)||(d1>dist))
 			{
 			  //printf("channel they are same\n");
                           	 continue;
