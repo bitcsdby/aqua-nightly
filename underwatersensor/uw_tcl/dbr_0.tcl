@@ -47,6 +47,14 @@ puts "the sending interval is $opt(interval)"
 
 # ==================================================================
 
+Channel set sink_num 1
+
+# PURE_DBR 		0
+# EE_DBR 		1
+# DIR_DBR 		2
+# CENTRA_DBR 	3
+Agent/DBR set dbr_type 1
+
 LL set mindelay_ 50us
 LL set delay_ 25us
 LL set bandwidth_ 0 ;# not used
@@ -76,15 +84,13 @@ Phy/UnderwaterPhy set Pt_ 0.2818
 Phy/UnderwaterPhy set freq_ 25 ;# 25khz 
 Phy/UnderwaterPhy set K_ 2.0 ;# spherical spreading
 
+
+
 # =================================================================
 # Main Program
 # =================================================================
 
-# PURE_DBR 		0
-# EE_DBR 		1
-# DIR_DBR 		2
-# CENTRA_DBR 	3
-Agent/DBR set dbr_type 0
+
 
 #
 # Initialize Global Variables

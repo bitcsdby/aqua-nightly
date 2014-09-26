@@ -65,6 +65,8 @@ public:
 	TclObject* gridkeeper_;
 	double maxdelay() { return delay_; };
   	int index() {return index_;}
+
+  	int sink_num;
         
 private:
 	virtual void sendUp(Packet* p, Phy *txif); 

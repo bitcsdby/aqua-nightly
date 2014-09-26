@@ -38,7 +38,11 @@ double UnderwaterChannel::distCST_Sink = 1000.0;	// transmission range of sink o
 
 
 UnderwaterChannel::UnderwaterChannel(void) : Channel(), numNodes_(0), 
-					 xListHead_(NULL), sorted_(0) {}
+					 xListHead_(NULL), sorted_(0) {
+
+	//sink_num = 1;
+	//bind("sink_num",&sink_num);
+}
 
 int UnderwaterChannel::command(int argc, const char*const* argv)
 {
@@ -66,7 +70,7 @@ int UnderwaterChannel::command(int argc, const char*const* argv)
 //to discriminate a sink
 bool UnderwaterChannel::issink(int id)
 {
-	if (id < 4)
+	if (id < sink_num)
 		return true;
 
 	return false;

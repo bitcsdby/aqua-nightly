@@ -19,6 +19,8 @@ public:
 	UnderwaterChannel(void);
 	virtual int command(int argc, const char*const* argv);
         static double Transmit_distance(){return distCST_;}; 
+
+
 private:
 	void sendUp(Packet* p, Phy *txif);
 	double get_pdelay(Node* tnode, Node* rnode);
@@ -38,6 +40,8 @@ private:
        
 	bool issink(int id);
 	
+
+
 protected:
 	static double distCST_;
 	static double distCST_Sink;

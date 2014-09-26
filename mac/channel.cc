@@ -99,6 +99,7 @@ Channel::Channel() : TclObject()
 	index_ = ChannelIndex++;
 	LIST_INIT(&ifhead_);
 	bind_time("delay_", &delay_);
+	bind("sink_num",&sink_num);
 }
 
 int Channel::command(int argc, const char*const* argv)
